@@ -1,0 +1,2220 @@
+=> [[32m#<Cucumber::Core::Report::Summary:0x4a5ed38[0m
+  @test_cases[32m=[0m
+   [32m#<Cucumber::Core::Test::Result::Summary:0x4a5ed08[0m @durations[32m=[0m[], @exceptions[32m=[0m[], @totals[32m=[0m{}[32m>[0m,
+  @test_steps[32m=[0m
+   [32m#<Cucumber::Core::Test::Result::Summary:0x4a5ec78[0m
+    @durations[32m=[0m
+     [[32m#<Cucumber::Core::Test::Result::Duration:0x3a95168[0m @nanoseconds[32m=[0m[1;34m3207[0m[32m>[0m,
+      [32m#<Cucumber::Core::Test::Result::Duration:0x36a81f8[0m @nanoseconds[32m=[0m[1;34m21911764253[0m[32m>[0m,
+      [32m#<Cucumber::Core::Test::Result::Duration:0x32e2ff0[0m @nanoseconds[32m=[0m[1;34m2342717135[0m[32m>[0m,
+      [32m#<Cucumber::Core::Test::Result::Duration:0x4c3bdc8[0m @nanoseconds[32m=[0m[1;34m2247042771[0m[32m>[0m],
+    @exceptions[32m=[0m[],
+    @totals[32m=[0m{[33m:passed[0m=>[1;34m4[0m}[32m>[0m[32m>[0m,
+ [32m#<Cucumber::Formatter::EventBusReport:0x4a5ebd0[0m
+  @config[32m=[0m
+   [32m#<Cucumber::Configuration:0x33ff168[0m
+    @options[32m=[0m
+     {[33m:autoload_code_paths[0m=>[[31m[1;31m"[0m[31mfeatures/support[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mfeatures/step_definitions[1;31m"[0m[31m[0m],
+      [33m:filters[0m=>[],
+      [33m:strict[0m=>[1;36mfalse[0m,
+      [33m:require[0m=>[],
+      [33m:dry_run[0m=>[1;36mfalse[0m,
+      [33m:fail_fast[0m=>[1;36mfalse[0m,
+      [33m:formats[0m=>[[[31m[1;31m"[0m[31mpretty[1;31m"[0m[31m[0m, [32m#<IO:<STDOUT>>[0m]],
+      [33m:excludes[0m=>[],
+      [33m:tag_expressions[0m=>[],
+      [33m:name_regexps[0m=>[],
+      [33m:env_vars[0m=>
+       {[31m[1;31m"[0m[31mAPP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mC:/Users/Gustavo Yam/Desktop/Prova/ApkProvaCarros.apk[1;31m"[0m[31m[0m,
+        [31m[1;31m"[0m[31mTEST_APP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mtest_servers/94e1968db68c3547431eff8b55fc5366_0.9.0.apk[1;31m"[0m[31m[0m},
+      [33m:diff_enabled[0m=>[1;36mtrue[0m,
+      [33m:snippets[0m=>[1;36mtrue[0m,
+      [33m:source[0m=>[1;36mtrue[0m,
+      [33m:duration[0m=>[1;36mtrue[0m,
+      [33m:event_bus[0m=>
+       [32m#<Cucumber::Events::Bus:0x33ff030[0m
+        @default_namespace[32m=[0m[31m[1;31m"[0m[31mCucumber::Events[1;31m"[0m[31m[0m,
+        @handlers[32m=[0m
+         {[31m[1;31m"[0m[31mCucumber::Events::StepMatch[1;31m"[0m[31m[0m=>
+           [[32m#<Proc:0x4a09778@C:/Ruby23/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m],
+          [31m[1;31m"[0m[31mCucumber::Events::BeforeTestCase[1;31m"[0m[31m[0m=>[],
+          [31m[1;31m"[0m[31mCucumber::Events::BeforeTestStep[1;31m"[0m[31m[0m=>[],
+          [31m[1;31m"[0m[31mCucumber::Events::AfterTestStep[1;31m"[0m[31m[0m=>[]}[32m>[0m,
+      [33m:retry[0m=>[1;34m0[0m,
+      [33m:default_profile[0m=>[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m,
+      [33m:skip_profile_information[0m=>[1;36mnil[0m,
+      [33m:paths[0m=>[],
+      [33m:profiles[0m=>[],
+      [33m:tag_expression[0m=>[32m#<Cucumber::Core::Gherkin::TagExpression:0x33ff5a0[0m @ands[32m=[0m[], @limits[32m=[0m{}[32m>[0m,
+      [33m:out_stream[0m=>[32m#<IO:<STDOUT>>[0m,
+      [33m:error_stream[0m=>[32m#<IO:<STDERR>>[0m,
+      [33m:snippet_generators[0m=>[[32m#<Cucumber::RbSupport::Snippet::Generator:0x33fedc0[0m[32m>[0m]}[32m>[0m,
+  @test_case[32m=[0m[32m#<Cucumber::Core::Test::Case: features/Prova_feature.feature:12>[0m[32m>[0m,
+ [32m#<struct Cucumber::Formatter::LegacyApi::Adapter[0m
+  formatter[32m=[0m
+   [32m#<Cucumber::Formatter::Pretty:0x4a09910[0m
+    @current_step[32m=[0m
+     [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+      step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/carro_steps.rb:3>[0m,
+      status[32m=[0m[33m:passed[0m,
+      duration[32m=[0m[32m#<Cucumber::Core::Test::Result::Duration:0x4c3bdc8[0m @nanoseconds[32m=[0m[1;34m2247042771[0m[32m>[0m,
+      exception[32m=[0m[1;36mnil[0m,
+      indent[32m=[0m[32m#<Cucumber::Formatter::LegacyApi::Indent:0x4c20c90[0m @widths[32m=[0m[[1;34m35[0m, [1;34m26[0m, [1;34m28[0m, [1;34m40[0m][32m>[0m,
+      background[32m=[0m[1;36mnil[0m,
+      step[32m=[0m
+       [32m#<Cucumber::Core::Ast::Step "Dado : que eu esteja no app" (features/Prova_feature.feature:13)>[0m,
+      messages[32m=[0m[],
+      embeddings[32m=[0m[][32m>[0m,
+    @delayed_messages[32m=[0m[],
+    @exceptions[32m=[0m[],
+    @hide_this_step[32m=[0m[1;36mfalse[0m,
+    @indent[32m=[0m[1;34m6[0m,
+    @io[32m=[0m[32m#<IO:<STDOUT>>[0m,
+    @options[32m=[0m
+     [32m#<Cucumber::Cli::Options:0x4a09b38[0m
+      @default_profile[32m=[0m[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m,
+      @disable_profile_loading[32m=[0m[1;36mnil[0m,
+      @error_stream[32m=[0m[32m#<IO:<STDERR>>[0m,
+      @options[32m=[0m
+       {[33m:strict[0m=>[1;36mfalse[0m,
+        [33m:require[0m=>[],
+        [33m:dry_run[0m=>[1;36mfalse[0m,
+        [33m:formats[0m=>[[[31m[1;31m"[0m[31mpretty[1;31m"[0m[31m[0m, [32m#<IO:<STDOUT>>[0m]],
+        [33m:excludes[0m=>[],
+        [33m:tag_expressions[0m=>[],
+        [33m:name_regexps[0m=>[],
+        [33m:env_vars[0m=>
+         {[31m[1;31m"[0m[31mAPP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mC:/Users/Gustavo Yam/Desktop/Prova/ApkProvaCarros.apk[1;31m"[0m[31m[0m,
+          [31m[1;31m"[0m[31mTEST_APP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mtest_servers/94e1968db68c3547431eff8b55fc5366_0.9.0.apk[1;31m"[0m[31m[0m},
+        [33m:diff_enabled[0m=>[1;36mtrue[0m,
+        [33m:snippets[0m=>[1;36mtrue[0m,
+        [33m:source[0m=>[1;36mtrue[0m,
+        [33m:duration[0m=>[1;36mtrue[0m,
+        [33m:retry[0m=>[1;34m0[0m,
+        [33m:autoload_code_paths[0m=>[[31m[1;31m"[0m[31mfeatures/support[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mfeatures/step_definitions[1;31m"[0m[31m[0m],
+        [33m:filters[0m=>[],
+        [33m:fail_fast[0m=>[1;36mfalse[0m,
+        [33m:event_bus[0m=>
+         [32m#<Cucumber::Events::Bus:0x33ff030[0m
+          @default_namespace[32m=[0m[31m[1;31m"[0m[31mCucumber::Events[1;31m"[0m[31m[0m,
+          @handlers[32m=[0m
+           {[31m[1;31m"[0m[31mCucumber::Events::StepMatch[1;31m"[0m[31m[0m=>
+             [[32m#<Proc:0x4a09778@C:/Ruby23/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m],
+            [31m[1;31m"[0m[31mCucumber::Events::BeforeTestCase[1;31m"[0m[31m[0m=>[],
+            [31m[1;31m"[0m[31mCucumber::Events::BeforeTestStep[1;31m"[0m[31m[0m=>[],
+            [31m[1;31m"[0m[31mCucumber::Events::AfterTestStep[1;31m"[0m[31m[0m=>[]}[32m>[0m,
+        [33m:default_profile[0m=>[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m,
+        [33m:skip_profile_information[0m=>[1;36mnil[0m,
+        [33m:paths[0m=>[],
+        [33m:profiles[0m=>[],
+        [33m:tag_expression[0m=>[32m#<Cucumber::Core::Gherkin::TagExpression:0x33ff5a0[0m @ands[32m=[0m[], @limits[32m=[0m{}[32m>[0m,
+        [33m:out_stream[0m=>[32m#<IO:<STDOUT>>[0m,
+        [33m:error_stream[0m=>[32m#<IO:<STDERR>>[0m,
+        [33m:snippet_generators[0m=>[[32m#<Cucumber::RbSupport::Snippet::Generator:0x33fedc0[0m[32m>[0m]},
+      @out_stream[32m=[0m[32m#<IO:<STDOUT>>[0m,
+      @overridden_paths[32m=[0m[],
+      @profile_loader[32m=[0m[1;36mnil[0m,
+      @profiles[32m=[0m[][32m>[0m,
+    @prefixes[32m=[0m{},
+    @previous_step_keyword[32m=[0m[31m[1;31m"[0m[31mDado [1;31m"[0m[31m[0m,
+    @runtime[32m=[0m
+     [32m#<struct Cucumber::Formatter::LegacyApi::RuntimeFacade[0m
+      results[32m=[0m
+       [32m#<Cucumber::Formatter::LegacyApi::Results:0x4a09970[0m
+        @inserted_scenarios[32m=[0m{},
+        @inserted_steps[32m=[0m
+         {[1;34m39912852[0m=>
+           [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+            step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/carro_steps.rb:3>[0m,
+            status[32m=[0m[33m:passed[0m,
+            duration[32m=[0m[32m#<Cucumber::Core::Test::Result::Duration:0x4c3bdc8[0m @nanoseconds[32m=[0m[1;34m2247042771[0m[32m>[0m,
+            exception[32m=[0m[1;36mnil[0m,
+            indent[32m=[0m[32m#<Cucumber::Formatter::LegacyApi::Indent:0x4c20c90[0m @widths[32m=[0m[[1;34m35[0m, [1;34m26[0m, [1;34m28[0m, [1;34m40[0m][32m>[0m,
+            background[32m=[0m[1;36mnil[0m,
+            step[32m=[0m
+             [32m#<Cucumber::Core::Ast::Step "Dado : que eu esteja no app" (features/Prova_feature.feature:13)>[0m,
+            messages[32m=[0m[],
+            embeddings[32m=[0m[][32m>[0m},
+        @steps[32m=[0m
+         [[32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+           step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/carro_steps.rb:3>[0m,
+           status[32m=[0m[33m:passed[0m,
+           duration[32m=[0m[32m#<Cucumber::Core::Test::Result::Duration:0x4c3bdc8[0m @nanoseconds[32m=[0m[1;34m2247042771[0m[32m>[0m,
+           exception[32m=[0m[1;36mnil[0m,
+           indent[32m=[0m[32m#<Cucumber::Formatter::LegacyApi::Indent:0x4c20c90[0m @widths[32m=[0m[[1;34m35[0m, [1;34m26[0m, [1;34m28[0m, [1;34m40[0m][32m>[0m,
+           background[32m=[0m[1;36mnil[0m,
+           step[32m=[0m
+            [32m#<Cucumber::Core::Ast::Step "Dado : que eu esteja no app" (features/Prova_feature.feature:13)>[0m,
+           messages[32m=[0m[],
+           embeddings[32m=[0m[][32m>[0m][32m>[0m,
+      support_code[32m=[0m
+       [32m#<Cucumber::Runtime::SupportCode:0x33fee68[0m
+        @configuration[32m=[0m
+         [32m#<Cucumber::Configuration:0x33ff168[0m
+          @options[32m=[0m
+           {[33m:autoload_code_paths[0m=>[[31m[1;31m"[0m[31mfeatures/support[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mfeatures/step_definitions[1;31m"[0m[31m[0m],
+            [33m:filters[0m=>[],
+            [33m:strict[0m=>[1;36mfalse[0m,
+            [33m:require[0m=>[],
+            [33m:dry_run[0m=>[1;36mfalse[0m,
+            [33m:fail_fast[0m=>[1;36mfalse[0m,
+            [33m:formats[0m=>[[[31m[1;31m"[0m[31mpretty[1;31m"[0m[31m[0m, [32m#<IO:<STDOUT>>[0m]],
+            [33m:excludes[0m=>[],
+            [33m:tag_expressions[0m=>[],
+            [33m:name_regexps[0m=>[],
+            [33m:env_vars[0m=>
+             {[31m[1;31m"[0m[31mAPP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mC:/Users/Gustavo Yam/Desktop/Prova/ApkProvaCarros.apk[1;31m"[0m[31m[0m,
+              [31m[1;31m"[0m[31mTEST_APP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mtest_servers/94e1968db68c3547431eff8b55fc5366_0.9.0.apk[1;31m"[0m[31m[0m},
+            [33m:diff_enabled[0m=>[1;36mtrue[0m,
+            [33m:snippets[0m=>[1;36mtrue[0m,
+            [33m:source[0m=>[1;36mtrue[0m,
+            [33m:duration[0m=>[1;36mtrue[0m,
+            [33m:event_bus[0m=>
+             [32m#<Cucumber::Events::Bus:0x33ff030[0m
+              @default_namespace[32m=[0m[31m[1;31m"[0m[31mCucumber::Events[1;31m"[0m[31m[0m,
+              @handlers[32m=[0m
+               {[31m[1;31m"[0m[31mCucumber::Events::StepMatch[1;31m"[0m[31m[0m=>
+                 [[32m#<Proc:0x4a09778@C:/Ruby23/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m],
+                [31m[1;31m"[0m[31mCucumber::Events::BeforeTestCase[1;31m"[0m[31m[0m=>[],
+                [31m[1;31m"[0m[31mCucumber::Events::BeforeTestStep[1;31m"[0m[31m[0m=>[],
+                [31m[1;31m"[0m[31mCucumber::Events::AfterTestStep[1;31m"[0m[31m[0m=>[]}[32m>[0m,
+            [33m:retry[0m=>[1;34m0[0m,
+            [33m:default_profile[0m=>[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m,
+            [33m:skip_profile_information[0m=>[1;36mnil[0m,
+            [33m:paths[0m=>[],
+            [33m:profiles[0m=>[],
+            [33m:tag_expression[0m=>
+             [32m#<Cucumber::Core::Gherkin::TagExpression:0x33ff5a0[0m @ands[32m=[0m[], @limits[32m=[0m{}[32m>[0m,
+            [33m:out_stream[0m=>[32m#<IO:<STDOUT>>[0m,
+            [33m:error_stream[0m=>[32m#<IO:<STDERR>>[0m,
+            [33m:snippet_generators[0m=>[[32m#<Cucumber::RbSupport::Snippet::Generator:0x33fedc0[0m[32m>[0m]}[32m>[0m,
+        @ruby[32m=[0m
+         [32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m
+          @available_step_definition_hash[32m=[0m
+           {[32m#<Cucumber::StepDefinitionLight:0x4b113a0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/assert_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m1[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I see the text [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4b0bf10[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/assert_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m5[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I see [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4b0b910[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/assert_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m9[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I should see [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4b0b4f0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/assert_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m13[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I should see text containing [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4b0b058[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/assert_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m19[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I should not see [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4b0aba8[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/assert_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m23[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I don't see the text [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4b0a6e0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/assert_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m27[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I don't see [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4b091c8[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/check_box_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m1[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I toggle checkbox number ([1;35m\\[0m[31md+)$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4b03990[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/context_menu_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m1[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I long press [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m and select item number ([1;35m\\[0m[31md+)$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4b03570[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/context_menu_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m8[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I long press [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m and select [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4b031c8[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/context_menu_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m15[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I long press [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4af7db0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/date_picker_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m2[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m
+              [31m[1;31m"[0m[31m/^I set the date to [1;35m\"[0m[31m([1;35m\\[0m[31md[1;35m\\[0m[31md-[1;35m\\[0m[31md[1;35m\\[0m[31md-[1;35m\\[0m[31md[1;35m\\[0m[31md[1;35m\\[0m[31md[1;35m\\[0m[31md)[1;35m\"[0m[31m on DatePicker with index ([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)$/[1;31m"[0m[31m[0m[32m>[0m=>
+             [1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4af7948[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/date_picker_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m6[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m
+              [31m[1;31m"[0m[31m/^I set the [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m date to [1;35m\"[0m[31m([1;35m\\[0m[31md[1;35m\\[0m[31md-[1;35m\\[0m[31md[1;35m\\[0m[31md-[1;35m\\[0m[31md[1;35m\\[0m[31md[1;35m\\[0m[31md[1;35m\\[0m[31md)[1;35m\"[0m[31m$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4aefb48[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/enter_text_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m1[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I enter [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m as [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4aef278[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/enter_text_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m5[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I enter [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m into [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4aee9f0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/enter_text_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m9[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I enter [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m into input field number ([1;35m\\[0m[31md+)$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4aee138[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/enter_text_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m13[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I enter text [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m into field with id [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m$/[1;31m"[0m[31m[0m[32m>[0m=>
+             [1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4aedc10[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/enter_text_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m17[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I clear [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4aed7d8[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/enter_text_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m21[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I clear input field number ([1;35m\\[0m[31md+)$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4aed400[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/enter_text_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m25[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I clear input field with id [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4ae75c8[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/location_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m1[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I am in [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4ae7160[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/location_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m5[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I am at [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4ae6d40[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/location_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m9[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I go to [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4ae68f0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/location_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m13[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I am at ([-+]?[0-9]*[1;35m\\[0m[31m.?[0-9]+), ([-+]?[0-9]*[1;35m\\[0m[31m.?[0-9]+)$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4ae6518[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/location_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m17[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I go to ([-+]?[0-9]*[1;35m\\[0m[31m.?[0-9]+), ([-+]?[0-9]*[1;35m\\[0m[31m.?[0-9]+)$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4acec08[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m1[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I go back$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4ace788[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m5[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I press the menu key$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4ace050[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m9[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I press the enter button$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4acdc30[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m15[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I swipe left$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4acd810[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m19[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I swipe right$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4acd408[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m23[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I select [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m from the menu$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4accfd0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m27[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I select tab number ([1;35m\\[0m[31md+)$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4accb98[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m32[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I select the [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m tab$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4acc778[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m36[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I scroll down$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4acc3a0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m40[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I scroll up$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4acc028[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m44[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m
+              [31m[1;31m"[0m[31m/^I drag from ([1;35m\\[0m[31md+):([1;35m\\[0m[31md+) to ([1;35m\\[0m[31md+):([1;35m\\[0m[31md+) moving with ([1;35m\\[0m[31md+) steps$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4ab7ac0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/press_button_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m1[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I press the [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m button$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4ab76d0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/press_button_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m5[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I press button number ([1;35m\\[0m[31md+)$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4ab72e0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/press_button_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m9[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I press image button number ([1;35m\\[0m[31md+)$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4ab6f20[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/press_button_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m13[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I press view with id [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4ab6b30[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/press_button_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m17[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I press [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4ab6740[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/press_button_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m21[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m
+              [31m[1;31m"[0m[31m/^I click on screen ([1;35m\\[0m[31md+)% from the left and ([1;35m\\[0m[31md+)% from the top$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4ab63b0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/press_button_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m25[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I touch the [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m text$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4ab5e10[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/press_button_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m29[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I press list item number ([1;35m\\[0m[31md+)$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4ab5918[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/press_button_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m35[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I long press list item number ([1;35m\\[0m[31md+)$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4aa6ba0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m1[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I wait for progress$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4aa6648[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m5[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I wait$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4aa6168[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m10[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I wait for ([1;35m\\[0m[31md+) seconds$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4aa5c88[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m14[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I wait for 1 second$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4aa5880[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m18[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I wait for a second$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4aa5490[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m22[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I wait for [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m to appear$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4aa4f68[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m26[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I wait up to ([1;35m\\[0m[31md+) seconds for [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m to appear$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4aa4b90[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m30[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I wait to see [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4aa46f8[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m34[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I wait up to ([1;35m\\[0m[31md+) seconds to see [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4aa4158[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m38[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I wait for the [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m button to appear$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4a9fdc0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m42[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I wait for the view with id [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m to appear$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4a9f9e8[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m46[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I wait for the [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m view to appear$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4a9f658[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m51[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I wait for the [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m screen to appear$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4a9f190[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m55[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m
+              [31m[1;31m"[0m[31m/^I wait upto ([1;35m\\[0m[31md+) seconds for the [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m screen to appear$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4a9ec20[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m59[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m
+              [31m[1;31m"[0m[31m/^I wait up to ([1;35m\\[0m[31md+) seconds for the [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m screen to appear$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4a9e758[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m64[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I wait for the [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m tab to appear$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4a92140[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/screenshot_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m1[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^take picture$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4a91438[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/screenshot_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m5[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I take a picture$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4a907a8[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/screenshot_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m9[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I take a screenshot$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4a79018[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/search_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m1[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I enter [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m into search field$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4a783a0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/search_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m5[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I enter [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m into search field number ([1;35m\\[0m[31md+)$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4a72868[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/spinner_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m1[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I select [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m from [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4a71338[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/time_picker_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m2[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m
+              [31m[1;31m"[0m[31m/^I set the time to [1;35m\"[0m[31m([1;35m\\[0m[31md[1;35m\\[0m[31md:[1;35m\\[0m[31md[1;35m\\[0m[31md)[1;35m\"[0m[31m on TimePicker with index ([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4a70f78[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/time_picker_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m6[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^I set the [1;35m\"[0m[31m([^[1;35m\\[0m[31m[1;35m\"[0m[31m]*)[1;35m\"[0m[31m time to [1;35m\"[0m[31m([1;35m\\[0m[31md[1;35m\\[0m[31md:[1;35m\\[0m[31md[1;35m\\[0m[31md)[1;35m\"[0m[31m$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4a700d8[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mfeatures/step_definitions/carro_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m3[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^que eu esteja no app$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4a5fe30[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mfeatures/step_definitions/carro_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m9[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^eu fizer um cadastro$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x4a5fa10[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mfeatures/step_definitions/carro_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m19[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^confirmo se cadastro foi efetuado$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m},
+          @current_world[32m=[0m
+           [32m#<Object+Calabash::Android::Operations+Calabash::Android::DragHelpers+Calabash::Android::MonkeyHelpers+Calabash::Android::WaitHelpers+Calabash::Android::TouchHelpers+Calabash::Android::Gestures+Calabash::Android::TextHelpers+Calabash::Android::EnvironmentHelpers+Calabash::Android::ColorHelper+RSpec::Matchers+Cucumber::RbSupport::RbWorld+PP::ObjectMixin+JSON::Ext::Generator::GeneratorMethods::Object+Kernel:0x24e25fc>[0m,
+          @hooks[32m=[0m
+           {[33m:after_configuration[0m=>
+             [[32m#<Cucumber::RbSupport::RbHook:0x4aa7f50[0m
+               @location[32m=[0m
+                [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+                 file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/cucumber.rb[1;31m"[0m[31m[0m,
+                 lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m7[0m}>[32m>[0m[32m>[0m,
+               @proc[32m=[0m
+                [32m#<Proc:0x4aa7f98@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/cucumber.rb:7>[0m,
+               @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+               @tag_expressions[32m=[0m[][32m>[0m,
+              [32m#<Cucumber::RbSupport::RbHook:0x4b81528[0m
+               @location[32m=[0m
+                [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+                 file[32m=[0m[31m[1;31m"[0m[31mfeatures/support/app_installation_hooks.rb[1;31m"[0m[31m[0m,
+                 lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m3[0m}>[32m>[0m[32m>[0m,
+               @proc[32m=[0m
+                [32m#<Proc:0x4b815b8@C:/Users/Gustavo Yam/Desktop/Prova/features/support/app_installation_hooks.rb:3>[0m,
+               @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+               @tag_expressions[32m=[0m[][32m>[0m],
+            [33m:before[0m=>
+             [[32m#<Cucumber::RbSupport::RbHook:0x4b80e38[0m
+               @location[32m=[0m
+                [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+                 file[32m=[0m[31m[1;31m"[0m[31mfeatures/support/app_installation_hooks.rb[1;31m"[0m[31m[0m,
+                 lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m7[0m}>[32m>[0m[32m>[0m,
+               @proc[32m=[0m
+                [32m#<Proc:0x4b80e68@C:/Users/Gustavo Yam/Desktop/Prova/features/support/app_installation_hooks.rb:7>[0m,
+               @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+               @tag_expressions[32m=[0m[][32m>[0m,
+              [32m#<Cucumber::RbSupport::RbHook:0x4b7b300[0m
+               @location[32m=[0m
+                [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+                 file[32m=[0m[31m[1;31m"[0m[31mfeatures/support/app_life_cycle_hooks.rb[1;31m"[0m[31m[0m,
+                 lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m4[0m}>[32m>[0m[32m>[0m,
+               @proc[32m=[0m
+                [32m#<Proc:0x4b7b330@C:/Users/Gustavo Yam/Desktop/Prova/features/support/app_life_cycle_hooks.rb:4>[0m,
+               @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+               @tag_expressions[32m=[0m[][32m>[0m],
+            [33m:after[0m=>
+             [[32m#<Cucumber::RbSupport::RbHook:0x4b7aeb0[0m
+               @location[32m=[0m
+                [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+                 file[32m=[0m[31m[1;31m"[0m[31mfeatures/support/app_life_cycle_hooks.rb[1;31m"[0m[31m[0m,
+                 lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m8[0m}>[32m>[0m[32m>[0m,
+               @proc[32m=[0m
+                [32m#<Proc:0x4b7aee0@C:/Users/Gustavo Yam/Desktop/Prova/features/support/app_life_cycle_hooks.rb:8>[0m,
+               @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+               @tag_expressions[32m=[0m[][32m>[0m],
+            [33m:after_step[0m=>[],
+            [33m:around[0m=>[]},
+          @invoked_step_definition_hash[32m=[0m
+           {[32m#<Cucumber::StepDefinitionLight:0x49e0e70[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mfeatures/step_definitions/carro_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m3[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^que eu esteja no app$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x49e0168[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mfeatures/step_definitions/carro_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m9[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^eu fizer um cadastro$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x49c7868[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mfeatures/step_definitions/carro_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m19[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^confirmo se cadastro foi efetuado$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m},
+          @runtime[32m=[0m
+           [32m#<Cucumber::Runtime::ForProgrammingLanguages:0x33fee20[0m
+            @support_code[32m=[0m[32m#<Cucumber::Runtime::SupportCode:0x33fee68[0m ...[32m>[0m,
+            @user_interface[32m=[0m
+             [32m#<Cucumber::Runtime:0x33ff198[0m
+              @configuration[32m=[0m
+               [32m#<Cucumber::Configuration:0x33ff168[0m
+                @options[32m=[0m
+                 {[33m:autoload_code_paths[0m=>[[31m[1;31m"[0m[31mfeatures/support[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mfeatures/step_definitions[1;31m"[0m[31m[0m],
+                  [33m:filters[0m=>[],
+                  [33m:strict[0m=>[1;36mfalse[0m,
+                  [33m:require[0m=>[],
+                  [33m:dry_run[0m=>[1;36mfalse[0m,
+                  [33m:fail_fast[0m=>[1;36mfalse[0m,
+                  [33m:formats[0m=>[[[31m[1;31m"[0m[31mpretty[1;31m"[0m[31m[0m, [32m#<IO:<STDOUT>>[0m]],
+                  [33m:excludes[0m=>[],
+                  [33m:tag_expressions[0m=>[],
+                  [33m:name_regexps[0m=>[],
+                  [33m:env_vars[0m=>
+                   {[31m[1;31m"[0m[31mAPP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mC:/Users/Gustavo Yam/Desktop/Prova/ApkProvaCarros.apk[1;31m"[0m[31m[0m,
+                    [31m[1;31m"[0m[31mTEST_APP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mtest_servers/94e1968db68c3547431eff8b55fc5366_0.9.0.apk[1;31m"[0m[31m[0m},
+                  [33m:diff_enabled[0m=>[1;36mtrue[0m,
+                  [33m:snippets[0m=>[1;36mtrue[0m,
+                  [33m:source[0m=>[1;36mtrue[0m,
+                  [33m:duration[0m=>[1;36mtrue[0m,
+                  [33m:event_bus[0m=>
+                   [32m#<Cucumber::Events::Bus:0x33ff030[0m
+                    @default_namespace[32m=[0m[31m[1;31m"[0m[31mCucumber::Events[1;31m"[0m[31m[0m,
+                    @handlers[32m=[0m
+                     {[31m[1;31m"[0m[31mCucumber::Events::StepMatch[1;31m"[0m[31m[0m=>
+                       [[32m#<Proc:0x4a09778@C:/Ruby23/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m],
+                      [31m[1;31m"[0m[31mCucumber::Events::BeforeTestCase[1;31m"[0m[31m[0m=>[],
+                      [31m[1;31m"[0m[31mCucumber::Events::BeforeTestStep[1;31m"[0m[31m[0m=>[],
+                      [31m[1;31m"[0m[31mCucumber::Events::AfterTestStep[1;31m"[0m[31m[0m=>[]}[32m>[0m,
+                  [33m:retry[0m=>[1;34m0[0m,
+                  [33m:default_profile[0m=>[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m,
+                  [33m:skip_profile_information[0m=>[1;36mnil[0m,
+                  [33m:paths[0m=>[],
+                  [33m:profiles[0m=>[],
+                  [33m:tag_expression[0m=>
+                   [32m#<Cucumber::Core::Gherkin::TagExpression:0x33ff5a0[0m @ands[32m=[0m[], @limits[32m=[0m{}[32m>[0m,
+                  [33m:out_stream[0m=>[32m#<IO:<STDOUT>>[0m,
+                  [33m:error_stream[0m=>[32m#<IO:<STDERR>>[0m,
+                  [33m:snippet_generators[0m=>[[32m#<Cucumber::RbSupport::Snippet::Generator:0x33fedc0[0m[32m>[0m]}[32m>[0m,
+              @event_bus_report[32m=[0m
+               [32m#<Cucumber::Formatter::EventBusReport:0x4a5ebd0[0m
+                @config[32m=[0m
+                 [32m#<Cucumber::Configuration:0x33ff168[0m
+                  @options[32m=[0m
+                   {[33m:autoload_code_paths[0m=>[[31m[1;31m"[0m[31mfeatures/support[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mfeatures/step_definitions[1;31m"[0m[31m[0m],
+                    [33m:filters[0m=>[],
+                    [33m:strict[0m=>[1;36mfalse[0m,
+                    [33m:require[0m=>[],
+                    [33m:dry_run[0m=>[1;36mfalse[0m,
+                    [33m:fail_fast[0m=>[1;36mfalse[0m,
+                    [33m:formats[0m=>[[[31m[1;31m"[0m[31mpretty[1;31m"[0m[31m[0m, [32m#<IO:<STDOUT>>[0m]],
+                    [33m:excludes[0m=>[],
+                    [33m:tag_expressions[0m=>[],
+                    [33m:name_regexps[0m=>[],
+                    [33m:env_vars[0m=>
+                     {[31m[1;31m"[0m[31mAPP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mC:/Users/Gustavo Yam/Desktop/Prova/ApkProvaCarros.apk[1;31m"[0m[31m[0m,
+                      [31m[1;31m"[0m[31mTEST_APP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mtest_servers/94e1968db68c3547431eff8b55fc5366_0.9.0.apk[1;31m"[0m[31m[0m},
+                    [33m:diff_enabled[0m=>[1;36mtrue[0m,
+                    [33m:snippets[0m=>[1;36mtrue[0m,
+                    [33m:source[0m=>[1;36mtrue[0m,
+                    [33m:duration[0m=>[1;36mtrue[0m,
+                    [33m:event_bus[0m=>
+                     [32m#<Cucumber::Events::Bus:0x33ff030[0m
+                      @default_namespace[32m=[0m[31m[1;31m"[0m[31mCucumber::Events[1;31m"[0m[31m[0m,
+                      @handlers[32m=[0m
+                       {[31m[1;31m"[0m[31mCucumber::Events::StepMatch[1;31m"[0m[31m[0m=>
+                         [[32m#<Proc:0x4a09778@C:/Ruby23/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m],
+                        [31m[1;31m"[0m[31mCucumber::Events::BeforeTestCase[1;31m"[0m[31m[0m=>[],
+                        [31m[1;31m"[0m[31mCucumber::Events::BeforeTestStep[1;31m"[0m[31m[0m=>[],
+                        [31m[1;31m"[0m[31mCucumber::Events::AfterTestStep[1;31m"[0m[31m[0m=>[]}[32m>[0m,
+                    [33m:retry[0m=>[1;34m0[0m,
+                    [33m:default_profile[0m=>[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m,
+                    [33m:skip_profile_information[0m=>[1;36mnil[0m,
+                    [33m:paths[0m=>[],
+                    [33m:profiles[0m=>[],
+                    [33m:tag_expression[0m=>
+                     [32m#<Cucumber::Core::Gherkin::TagExpression:0x33ff5a0[0m @ands[32m=[0m[], @limits[32m=[0m{}[32m>[0m,
+                    [33m:out_stream[0m=>[32m#<IO:<STDOUT>>[0m,
+                    [33m:error_stream[0m=>[32m#<IO:<STDERR>>[0m,
+                    [33m:snippet_generators[0m=>[[32m#<Cucumber::RbSupport::Snippet::Generator:0x33fedc0[0m[32m>[0m]}[32m>[0m,
+                @test_case[32m=[0m[32m#<Cucumber::Core::Test::Case: features/Prova_feature.feature:12>[0m[32m>[0m,
+              @features[32m=[0m
+               [[32m#<Cucumber::Core::Gherkin::Document:0x4a08ce0[0m
+                 @body[32m=[0m
+                  [31m[1;31m"[0m[31m#language: pt[1;35m\n[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31mFuncionalidade: Efetuar Cadastro no claro[1;35m\n[0m[31m[1;35m\n[0m[31mEu como usuario do app[1;35m\n[0m[31mQuero casdastar um carro[1;35m\n[0m[31mPara complementar a tabela de carros do app[1;35m\n[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31mCenário: Efetuar cadastro do cliente[1;35m\n[0m[31mDado que eu esteja no app[1;35m\n[0m[31mQuando eu fizer um cadastro[1;35m\n[0m[31mEntão confirmo se cadastro foi efetuado[1;35m\n[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31m[1;31m"[0m[31m[0m,
+                 @uri[32m=[0m[31m[1;31m"[0m[31mfeatures/Prova_feature.feature[1;31m"[0m[31m[0m[32m>[0m],
+              @filespecs[32m=[0m
+               [32m#<Cucumber::FileSpecs:0x4a09118[0m
+                @file_specs[32m=[0m
+                 [[32m#<Cucumber::FileSpecs::FileSpec:0x4a090b8[0m
+                   @file[32m=[0m[31m[1;31m"[0m[31mfeatures/Prova_feature.feature[1;31m"[0m[31m[0m,
+                   @lines[32m=[0m[][32m>[0m][32m>[0m,
+              @formatters[32m=[0m[[32m#<struct Cucumber::Formatter::LegacyApi::Adapter:...>[0m],
+              @report[32m=[0m
+               [32m#<Cucumber::Core::Report::Summary:0x4a5ed38[0m
+                @test_cases[32m=[0m
+                 [32m#<Cucumber::Core::Test::Result::Summary:0x4a5ed08[0m
+                  @durations[32m=[0m[],
+                  @exceptions[32m=[0m[],
+                  @totals[32m=[0m{}[32m>[0m,
+                @test_steps[32m=[0m
+                 [32m#<Cucumber::Core::Test::Result::Summary:0x4a5ec78[0m
+                  @durations[32m=[0m
+                   [[32m#<Cucumber::Core::Test::Result::Duration:0x3a95168[0m @nanoseconds[32m=[0m[1;34m3207[0m[32m>[0m,
+                    [32m#<Cucumber::Core::Test::Result::Duration:0x36a81f8[0m @nanoseconds[32m=[0m[1;34m21911764253[0m[32m>[0m,
+                    [32m#<Cucumber::Core::Test::Result::Duration:0x32e2ff0[0m @nanoseconds[32m=[0m[1;34m2342717135[0m[32m>[0m,
+                    [32m#<Cucumber::Core::Test::Result::Duration:0x4c3bdc8[0m @nanoseconds[32m=[0m[1;34m2247042771[0m[32m>[0m],
+                  @exceptions[32m=[0m[],
+                  @totals[32m=[0m{[33m:passed[0m=>[1;34m4[0m}[32m>[0m[32m>[0m[32m#<Cucumber::Formatter::EventBusReport:0x4a5ebd0[0m
+                @config[32m=[0m
+                 [32m#<Cucumber::Configuration:0x33ff168[0m
+                  @options[32m=[0m
+                   {[33m:autoload_code_paths[0m=>[[31m[1;31m"[0m[31mfeatures/support[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mfeatures/step_definitions[1;31m"[0m[31m[0m],
+                    [33m:filters[0m=>[],
+                    [33m:strict[0m=>[1;36mfalse[0m,
+                    [33m:require[0m=>[],
+                    [33m:dry_run[0m=>[1;36mfalse[0m,
+                    [33m:fail_fast[0m=>[1;36mfalse[0m,
+                    [33m:formats[0m=>[[[31m[1;31m"[0m[31mpretty[1;31m"[0m[31m[0m, [32m#<IO:<STDOUT>>[0m]],
+                    [33m:excludes[0m=>[],
+                    [33m:tag_expressions[0m=>[],
+                    [33m:name_regexps[0m=>[],
+                    [33m:env_vars[0m=>
+                     {[31m[1;31m"[0m[31mAPP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mC:/Users/Gustavo Yam/Desktop/Prova/ApkProvaCarros.apk[1;31m"[0m[31m[0m,
+                      [31m[1;31m"[0m[31mTEST_APP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mtest_servers/94e1968db68c3547431eff8b55fc5366_0.9.0.apk[1;31m"[0m[31m[0m},
+                    [33m:diff_enabled[0m=>[1;36mtrue[0m,
+                    [33m:snippets[0m=>[1;36mtrue[0m,
+                    [33m:source[0m=>[1;36mtrue[0m,
+                    [33m:duration[0m=>[1;36mtrue[0m,
+                    [33m:event_bus[0m=>
+                     [32m#<Cucumber::Events::Bus:0x33ff030[0m
+                      @default_namespace[32m=[0m[31m[1;31m"[0m[31mCucumber::Events[1;31m"[0m[31m[0m,
+                      @handlers[32m=[0m
+                       {[31m[1;31m"[0m[31mCucumber::Events::StepMatch[1;31m"[0m[31m[0m=>
+                         [[32m#<Proc:0x4a09778@C:/Ruby23/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m],
+                        [31m[1;31m"[0m[31mCucumber::Events::BeforeTestCase[1;31m"[0m[31m[0m=>[],
+                        [31m[1;31m"[0m[31mCucumber::Events::BeforeTestStep[1;31m"[0m[31m[0m=>[],
+                        [31m[1;31m"[0m[31mCucumber::Events::AfterTestStep[1;31m"[0m[31m[0m=>[]}[32m>[0m,
+                    [33m:retry[0m=>[1;34m0[0m,
+                    [33m:default_profile[0m=>[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m,
+                    [33m:skip_profile_information[0m=>[1;36mnil[0m,
+                    [33m:paths[0m=>[],
+                    [33m:profiles[0m=>[],
+                    [33m:tag_expression[0m=>
+                     [32m#<Cucumber::Core::Gherkin::TagExpression:0x33ff5a0[0m @ands[32m=[0m[], @limits[32m=[0m{}[32m>[0m,
+                    [33m:out_stream[0m=>[32m#<IO:<STDOUT>>[0m,
+                    [33m:error_stream[0m=>[32m#<IO:<STDERR>>[0m,
+                    [33m:snippet_generators[0m=>[[32m#<Cucumber::RbSupport::Snippet::Generator:0x33fedc0[0m[32m>[0m]}[32m>[0m,
+                @test_case[32m=[0m
+                 [32m#<Cucumber::Core::Test::Case: features/Prova_feature.feature:12>[0m[32m>[0m[32m#<struct Cucumber::Formatter::LegacyApi::Adapter[0m
+                formatter[32m=[0m[32m#<Cucumber::Formatter::Pretty:0x4a09910[0m ...[32m>[0m,
+                results[32m=[0m
+                 [32m#<Cucumber::Formatter::LegacyApi::Results:0x4a09970[0m
+                  @inserted_scenarios[32m=[0m{},
+                  @inserted_steps[32m=[0m
+                   {[1;34m39912852[0m=>
+                     [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                      step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/carro_steps.rb:3>[0m,
+                      status[32m=[0m[33m:passed[0m,
+                      duration[32m=[0m
+                       [32m#<Cucumber::Core::Test::Result::Duration:0x4c3bdc8[0m @nanoseconds[32m=[0m[1;34m2247042771[0m[32m>[0m,
+                      exception[32m=[0m[1;36mnil[0m,
+                      indent[32m=[0m
+                       [32m#<Cucumber::Formatter::LegacyApi::Indent:0x4c20c90[0m @widths[32m=[0m[[1;34m35[0m, [1;34m26[0m, [1;34m28[0m, [1;34m40[0m][32m>[0m,
+                      background[32m=[0m[1;36mnil[0m,
+                      step[32m=[0m
+                       [32m#<Cucumber::Core::Ast::Step "Dado : que eu esteja no app" (features/Prova_feature.feature:13)>[0m,
+                      messages[32m=[0m[],
+                      embeddings[32m=[0m[][32m>[0m},
+                  @steps[32m=[0m
+                   [[32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                     step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/carro_steps.rb:3>[0m,
+                     status[32m=[0m[33m:passed[0m,
+                     duration[32m=[0m
+                      [32m#<Cucumber::Core::Test::Result::Duration:0x4c3bdc8[0m @nanoseconds[32m=[0m[1;34m2247042771[0m[32m>[0m,
+                     exception[32m=[0m[1;36mnil[0m,
+                     indent[32m=[0m
+                      [32m#<Cucumber::Formatter::LegacyApi::Indent:0x4c20c90[0m @widths[32m=[0m[[1;34m35[0m, [1;34m26[0m, [1;34m28[0m, [1;34m40[0m][32m>[0m,
+                     background[32m=[0m[1;36mnil[0m,
+                     step[32m=[0m
+                      [32m#<Cucumber::Core::Ast::Step "Dado : que eu esteja no app" (features/Prova_feature.feature:13)>[0m,
+                     messages[32m=[0m[],
+                     embeddings[32m=[0m[][32m>[0m][32m>[0m,
+                config[32m=[0m
+                 [32m#<Cucumber::Configuration:0x33ff168[0m
+                  @options[32m=[0m
+                   {[33m:autoload_code_paths[0m=>[[31m[1;31m"[0m[31mfeatures/support[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mfeatures/step_definitions[1;31m"[0m[31m[0m],
+                    [33m:filters[0m=>[],
+                    [33m:strict[0m=>[1;36mfalse[0m,
+                    [33m:require[0m=>[],
+                    [33m:dry_run[0m=>[1;36mfalse[0m,
+                    [33m:fail_fast[0m=>[1;36mfalse[0m,
+                    [33m:formats[0m=>[[[31m[1;31m"[0m[31mpretty[1;31m"[0m[31m[0m, [32m#<IO:<STDOUT>>[0m]],
+                    [33m:excludes[0m=>[],
+                    [33m:tag_expressions[0m=>[],
+                    [33m:name_regexps[0m=>[],
+                    [33m:env_vars[0m=>
+                     {[31m[1;31m"[0m[31mAPP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mC:/Users/Gustavo Yam/Desktop/Prova/ApkProvaCarros.apk[1;31m"[0m[31m[0m,
+                      [31m[1;31m"[0m[31mTEST_APP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mtest_servers/94e1968db68c3547431eff8b55fc5366_0.9.0.apk[1;31m"[0m[31m[0m},
+                    [33m:diff_enabled[0m=>[1;36mtrue[0m,
+                    [33m:snippets[0m=>[1;36mtrue[0m,
+                    [33m:source[0m=>[1;36mtrue[0m,
+                    [33m:duration[0m=>[1;36mtrue[0m,
+                    [33m:event_bus[0m=>
+                     [32m#<Cucumber::Events::Bus:0x33ff030[0m
+                      @default_namespace[32m=[0m[31m[1;31m"[0m[31mCucumber::Events[1;31m"[0m[31m[0m,
+                      @handlers[32m=[0m
+                       {[31m[1;31m"[0m[31mCucumber::Events::StepMatch[1;31m"[0m[31m[0m=>
+                         [[32m#<Proc:0x4a09778@C:/Ruby23/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m],
+                        [31m[1;31m"[0m[31mCucumber::Events::BeforeTestCase[1;31m"[0m[31m[0m=>[],
+                        [31m[1;31m"[0m[31mCucumber::Events::BeforeTestStep[1;31m"[0m[31m[0m=>[],
+                        [31m[1;31m"[0m[31mCucumber::Events::AfterTestStep[1;31m"[0m[31m[0m=>[]}[32m>[0m,
+                    [33m:retry[0m=>[1;34m0[0m,
+                    [33m:default_profile[0m=>[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m,
+                    [33m:skip_profile_information[0m=>[1;36mnil[0m,
+                    [33m:paths[0m=>[],
+                    [33m:profiles[0m=>[],
+                    [33m:tag_expression[0m=>
+                     [32m#<Cucumber::Core::Gherkin::TagExpression:0x33ff5a0[0m @ands[32m=[0m[], @limits[32m=[0m{}[32m>[0m,
+                    [33m:out_stream[0m=>[32m#<IO:<STDOUT>>[0m,
+                    [33m:error_stream[0m=>[32m#<IO:<STDERR>>[0m,
+                    [33m:snippet_generators[0m=>[[32m#<Cucumber::RbSupport::Snippet::Generator:0x33fedc0[0m[32m>[0m]}[32m>[0m[32m>[0m,
+              @results[32m=[0m
+               [32m#<Cucumber::Formatter::LegacyApi::Results:0x33fed60[0m
+                @inserted_scenarios[32m=[0m{},
+                @inserted_steps[32m=[0m{}[32m>[0m,
+              @summary_report[32m=[0m
+               [32m#<Cucumber::Core::Report::Summary:0x4a5ed38[0m
+                @test_cases[32m=[0m
+                 [32m#<Cucumber::Core::Test::Result::Summary:0x4a5ed08[0m
+                  @durations[32m=[0m[],
+                  @exceptions[32m=[0m[],
+                  @totals[32m=[0m{}[32m>[0m,
+                @test_steps[32m=[0m
+                 [32m#<Cucumber::Core::Test::Result::Summary:0x4a5ec78[0m
+                  @durations[32m=[0m
+                   [[32m#<Cucumber::Core::Test::Result::Duration:0x3a95168[0m @nanoseconds[32m=[0m[1;34m3207[0m[32m>[0m,
+                    [32m#<Cucumber::Core::Test::Result::Duration:0x36a81f8[0m @nanoseconds[32m=[0m[1;34m21911764253[0m[32m>[0m,
+                    [32m#<Cucumber::Core::Test::Result::Duration:0x32e2ff0[0m @nanoseconds[32m=[0m[1;34m2342717135[0m[32m>[0m,
+                    [32m#<Cucumber::Core::Test::Result::Duration:0x4c3bdc8[0m @nanoseconds[32m=[0m[1;34m2247042771[0m[32m>[0m],
+                  @exceptions[32m=[0m[],
+                  @totals[32m=[0m{[33m:passed[0m=>[1;34m4[0m}[32m>[0m[32m>[0m,
+              @support_code[32m=[0m[32m#<Cucumber::Runtime::SupportCode:0x33fee68[0m ...[32m>[0m,
+              @visitor[32m=[0m
+               [32m#<Cucumber::Core::Report::Summary:0x4a5ed38[0m
+                @test_cases[32m=[0m
+                 [32m#<Cucumber::Core::Test::Result::Summary:0x4a5ed08[0m
+                  @durations[32m=[0m[],
+                  @exceptions[32m=[0m[],
+                  @totals[32m=[0m{}[32m>[0m,
+                @test_steps[32m=[0m
+                 [32m#<Cucumber::Core::Test::Result::Summary:0x4a5ec78[0m
+                  @durations[32m=[0m
+                   [[32m#<Cucumber::Core::Test::Result::Duration:0x3a95168[0m @nanoseconds[32m=[0m[1;34m3207[0m[32m>[0m,
+                    [32m#<Cucumber::Core::Test::Result::Duration:0x36a81f8[0m @nanoseconds[32m=[0m[1;34m21911764253[0m[32m>[0m,
+                    [32m#<Cucumber::Core::Test::Result::Duration:0x32e2ff0[0m @nanoseconds[32m=[0m[1;34m2342717135[0m[32m>[0m,
+                    [32m#<Cucumber::Core::Test::Result::Duration:0x4c3bdc8[0m @nanoseconds[32m=[0m[1;34m2247042771[0m[32m>[0m],
+                  @exceptions[32m=[0m[],
+                  @totals[32m=[0m{[33m:passed[0m=>[1;34m4[0m}[32m>[0m[32m>[0m[32m#<Cucumber::Formatter::EventBusReport:0x4a5ebd0[0m
+                @config[32m=[0m
+                 [32m#<Cucumber::Configuration:0x33ff168[0m
+                  @options[32m=[0m
+                   {[33m:autoload_code_paths[0m=>[[31m[1;31m"[0m[31mfeatures/support[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mfeatures/step_definitions[1;31m"[0m[31m[0m],
+                    [33m:filters[0m=>[],
+                    [33m:strict[0m=>[1;36mfalse[0m,
+                    [33m:require[0m=>[],
+                    [33m:dry_run[0m=>[1;36mfalse[0m,
+                    [33m:fail_fast[0m=>[1;36mfalse[0m,
+                    [33m:formats[0m=>[[[31m[1;31m"[0m[31mpretty[1;31m"[0m[31m[0m, [32m#<IO:<STDOUT>>[0m]],
+                    [33m:excludes[0m=>[],
+                    [33m:tag_expressions[0m=>[],
+                    [33m:name_regexps[0m=>[],
+                    [33m:env_vars[0m=>
+                     {[31m[1;31m"[0m[31mAPP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mC:/Users/Gustavo Yam/Desktop/Prova/ApkProvaCarros.apk[1;31m"[0m[31m[0m,
+                      [31m[1;31m"[0m[31mTEST_APP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mtest_servers/94e1968db68c3547431eff8b55fc5366_0.9.0.apk[1;31m"[0m[31m[0m},
+                    [33m:diff_enabled[0m=>[1;36mtrue[0m,
+                    [33m:snippets[0m=>[1;36mtrue[0m,
+                    [33m:source[0m=>[1;36mtrue[0m,
+                    [33m:duration[0m=>[1;36mtrue[0m,
+                    [33m:event_bus[0m=>
+                     [32m#<Cucumber::Events::Bus:0x33ff030[0m
+                      @default_namespace[32m=[0m[31m[1;31m"[0m[31mCucumber::Events[1;31m"[0m[31m[0m,
+                      @handlers[32m=[0m
+                       {[31m[1;31m"[0m[31mCucumber::Events::StepMatch[1;31m"[0m[31m[0m=>
+                         [[32m#<Proc:0x4a09778@C:/Ruby23/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m],
+                        [31m[1;31m"[0m[31mCucumber::Events::BeforeTestCase[1;31m"[0m[31m[0m=>[],
+                        [31m[1;31m"[0m[31mCucumber::Events::BeforeTestStep[1;31m"[0m[31m[0m=>[],
+                        [31m[1;31m"[0m[31mCucumber::Events::AfterTestStep[1;31m"[0m[31m[0m=>[]}[32m>[0m,
+                    [33m:retry[0m=>[1;34m0[0m,
+                    [33m:default_profile[0m=>[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m,
+                    [33m:skip_profile_information[0m=>[1;36mnil[0m,
+                    [33m:paths[0m=>[],
+                    [33m:profiles[0m=>[],
+                    [33m:tag_expression[0m=>
+                     [32m#<Cucumber::Core::Gherkin::TagExpression:0x33ff5a0[0m @ands[32m=[0m[], @limits[32m=[0m{}[32m>[0m,
+                    [33m:out_stream[0m=>[32m#<IO:<STDOUT>>[0m,
+                    [33m:error_stream[0m=>[32m#<IO:<STDERR>>[0m,
+                    [33m:snippet_generators[0m=>[[32m#<Cucumber::RbSupport::Snippet::Generator:0x33fedc0[0m[32m>[0m]}[32m>[0m,
+                @test_case[32m=[0m
+                 [32m#<Cucumber::Core::Test::Case: features/Prova_feature.feature:12>[0m[32m>[0m[32m#<struct Cucumber::Formatter::LegacyApi::Adapter[0m
+                formatter[32m=[0m[32m#<Cucumber::Formatter::Pretty:0x4a09910[0m ...[32m>[0m,
+                results[32m=[0m
+                 [32m#<Cucumber::Formatter::LegacyApi::Results:0x4a09970[0m
+                  @inserted_scenarios[32m=[0m{},
+                  @inserted_steps[32m=[0m
+                   {[1;34m39912852[0m=>
+                     [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                      step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/carro_steps.rb:3>[0m,
+                      status[32m=[0m[33m:passed[0m,
+                      duration[32m=[0m
+                       [32m#<Cucumber::Core::Test::Result::Duration:0x4c3bdc8[0m @nanoseconds[32m=[0m[1;34m2247042771[0m[32m>[0m,
+                      exception[32m=[0m[1;36mnil[0m,
+                      indent[32m=[0m
+                       [32m#<Cucumber::Formatter::LegacyApi::Indent:0x4c20c90[0m @widths[32m=[0m[[1;34m35[0m, [1;34m26[0m, [1;34m28[0m, [1;34m40[0m][32m>[0m,
+                      background[32m=[0m[1;36mnil[0m,
+                      step[32m=[0m
+                       [32m#<Cucumber::Core::Ast::Step "Dado : que eu esteja no app" (features/Prova_feature.feature:13)>[0m,
+                      messages[32m=[0m[],
+                      embeddings[32m=[0m[][32m>[0m},
+                  @steps[32m=[0m
+                   [[32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                     step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/carro_steps.rb:3>[0m,
+                     status[32m=[0m[33m:passed[0m,
+                     duration[32m=[0m
+                      [32m#<Cucumber::Core::Test::Result::Duration:0x4c3bdc8[0m @nanoseconds[32m=[0m[1;34m2247042771[0m[32m>[0m,
+                     exception[32m=[0m[1;36mnil[0m,
+                     indent[32m=[0m
+                      [32m#<Cucumber::Formatter::LegacyApi::Indent:0x4c20c90[0m @widths[32m=[0m[[1;34m35[0m, [1;34m26[0m, [1;34m28[0m, [1;34m40[0m][32m>[0m,
+                     background[32m=[0m[1;36mnil[0m,
+                     step[32m=[0m
+                      [32m#<Cucumber::Core::Ast::Step "Dado : que eu esteja no app" (features/Prova_feature.feature:13)>[0m,
+                     messages[32m=[0m[],
+                     embeddings[32m=[0m[][32m>[0m][32m>[0m,
+                config[32m=[0m
+                 [32m#<Cucumber::Configuration:0x33ff168[0m
+                  @options[32m=[0m
+                   {[33m:autoload_code_paths[0m=>[[31m[1;31m"[0m[31mfeatures/support[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mfeatures/step_definitions[1;31m"[0m[31m[0m],
+                    [33m:filters[0m=>[],
+                    [33m:strict[0m=>[1;36mfalse[0m,
+                    [33m:require[0m=>[],
+                    [33m:dry_run[0m=>[1;36mfalse[0m,
+                    [33m:fail_fast[0m=>[1;36mfalse[0m,
+                    [33m:formats[0m=>[[[31m[1;31m"[0m[31mpretty[1;31m"[0m[31m[0m, [32m#<IO:<STDOUT>>[0m]],
+                    [33m:excludes[0m=>[],
+                    [33m:tag_expressions[0m=>[],
+                    [33m:name_regexps[0m=>[],
+                    [33m:env_vars[0m=>
+                     {[31m[1;31m"[0m[31mAPP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mC:/Users/Gustavo Yam/Desktop/Prova/ApkProvaCarros.apk[1;31m"[0m[31m[0m,
+                      [31m[1;31m"[0m[31mTEST_APP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mtest_servers/94e1968db68c3547431eff8b55fc5366_0.9.0.apk[1;31m"[0m[31m[0m},
+                    [33m:diff_enabled[0m=>[1;36mtrue[0m,
+                    [33m:snippets[0m=>[1;36mtrue[0m,
+                    [33m:source[0m=>[1;36mtrue[0m,
+                    [33m:duration[0m=>[1;36mtrue[0m,
+                    [33m:event_bus[0m=>
+                     [32m#<Cucumber::Events::Bus:0x33ff030[0m
+                      @default_namespace[32m=[0m[31m[1;31m"[0m[31mCucumber::Events[1;31m"[0m[31m[0m,
+                      @handlers[32m=[0m
+                       {[31m[1;31m"[0m[31mCucumber::Events::StepMatch[1;31m"[0m[31m[0m=>
+                         [[32m#<Proc:0x4a09778@C:/Ruby23/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m],
+                        [31m[1;31m"[0m[31mCucumber::Events::BeforeTestCase[1;31m"[0m[31m[0m=>[],
+                        [31m[1;31m"[0m[31mCucumber::Events::BeforeTestStep[1;31m"[0m[31m[0m=>[],
+                        [31m[1;31m"[0m[31mCucumber::Events::AfterTestStep[1;31m"[0m[31m[0m=>[]}[32m>[0m,
+                    [33m:retry[0m=>[1;34m0[0m,
+                    [33m:default_profile[0m=>[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m,
+                    [33m:skip_profile_information[0m=>[1;36mnil[0m,
+                    [33m:paths[0m=>[],
+                    [33m:profiles[0m=>[],
+                    [33m:tag_expression[0m=>
+                     [32m#<Cucumber::Core::Gherkin::TagExpression:0x33ff5a0[0m @ands[32m=[0m[], @limits[32m=[0m{}[32m>[0m,
+                    [33m:out_stream[0m=>[32m#<IO:<STDOUT>>[0m,
+                    [33m:error_stream[0m=>[32m#<IO:<STDERR>>[0m,
+                    [33m:snippet_generators[0m=>
+                     [[32m#<Cucumber::RbSupport::Snippet::Generator:0x33fedc0[0m[32m>[0m]}[32m>[0m[32m>[0m[32m>[0m[32m>[0m,
+          @step_definitions[32m=[0m
+           [[32m#<Cucumber::RbSupport::RbStepDefinition:0x4b11af0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/assert_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m1[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4b11b98@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/assert_steps.rb:1>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I see the text "([^[1;35m\"[0m[35m]*)"$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4b10380[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/assert_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m5[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4b103b0@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/assert_steps.rb:5>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I see "([^[1;35m\"[0m[35m]*)"$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4b0bb38[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/assert_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m9[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4b0bb68@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/assert_steps.rb:9>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I should see "([^[1;35m\"[0m[35m]*)"$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4b0b748[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/assert_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m13[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4b0b790@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/assert_steps.rb:13>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I should see text containing "([^[1;35m\"[0m[35m]*)"$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4b0b2e0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/assert_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m19[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4b0b340@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/assert_steps.rb:19>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I should not see "([^[1;35m\"[0m[35m]*)"$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4b0ae78[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/assert_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m23[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4b0aea8@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/assert_steps.rb:23>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I don't see the text "([^[1;35m\"[0m[35m]*)"$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4b0a950[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/assert_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m27[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4b0a9b0@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/assert_steps.rb:27>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I don't see "([^[1;35m\"[0m[35m]*)"$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4b09450[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/check_box_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m1[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4b09480@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/check_box_steps.rb:1>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I toggle checkbox number ([1;35m\d[0m[35m+)$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4b03b88[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/context_menu_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m1[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4b03bb8@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/context_menu_steps.rb:1>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I long press "([^[1;35m\"[0m[35m]*)" and select item number ([1;35m\d[0m[35m+)$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4b03780[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/context_menu_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m8[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4b037c8@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/context_menu_steps.rb:8>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I long press "([^[1;35m\"[0m[35m]*)" and select "([^[1;35m\"[0m[35m]*)"$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4b033d8[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/context_menu_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m15[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4b03408@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/context_menu_steps.rb:15>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I long press "([^[1;35m\"[0m[35m]*)"$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4af7fa8[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/date_picker_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m2[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4b03f48@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/date_picker_steps.rb:2>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m
+              [35m[1;35m/[0m[35m^I set the date to "([1;35m\d[0m[35m[1;35m\d[0m[35m-[1;35m\d[0m[35m[1;35m\d[0m[35m-[1;35m\d[0m[35m[1;35m\d[0m[35m[1;35m\d[0m[35m[1;35m\d[0m[35m)" on DatePicker with index ([^[1;35m\"[0m[35m]*)$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4af7b70[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/date_picker_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m6[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4af7bd0@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/date_picker_steps.rb:6>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I set the "([^[1;35m\"[0m[35m]*)" date to "([1;35m\d[0m[35m[1;35m\d[0m[35m-[1;35m\d[0m[35m[1;35m\d[0m[35m-[1;35m\d[0m[35m[1;35m\d[0m[35m[1;35m\d[0m[35m[1;35m\d[0m[35m)"$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4aefe18[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/enter_text_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m1[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4aefe60@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/enter_text_steps.rb:1>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I enter "([^[1;35m\"[0m[35m]*)" as "([^[1;35m\"[0m[35m]*)"$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4aef800[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/enter_text_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m5[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4aef860@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/enter_text_steps.rb:5>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I enter "([^[1;35m\"[0m[35m]*)" into "([^[1;35m\"[0m[35m]*)"$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4aef098[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/enter_text_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m9[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4aef0c8@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/enter_text_steps.rb:9>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I enter "([^[1;35m\"[0m[35m]*)" into input field number ([1;35m\d[0m[35m+)$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4aee6d8[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/enter_text_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m13[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4aee750@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/enter_text_steps.rb:13>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I enter text "([^[1;35m\"[0m[35m]*)" into field with id "([^[1;35m\"[0m[35m]*)"$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4aeddf0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/enter_text_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m17[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4aede38@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/enter_text_steps.rb:17>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I clear "([^[1;35m\"[0m[35m]*)"$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4aed9d0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/enter_text_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m21[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4aeda30@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/enter_text_steps.rb:21>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I clear input field number ([1;35m\d[0m[35m+)$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4aed610[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/enter_text_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m25[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4aed640@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/enter_text_steps.rb:25>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I clear input field with id "([^[1;35m\"[0m[35m]*)"$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4ae7868[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/location_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m1[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4ae7898@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/location_steps.rb:1>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I am in "([^[1;35m\"[0m[35m]*)"$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4ae7388[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/location_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m5[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4ae73d0@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/location_steps.rb:5>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I am at "([^[1;35m\"[0m[35m]*)"$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4ae6f80[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/location_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m9[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4ae6fb0@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/location_steps.rb:9>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I go to "([^[1;35m\"[0m[35m]*)"$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4ae6b48[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/location_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m13[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4ae6b90@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/location_steps.rb:13>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I am at ([-+]?[0-9]*[1;35m\.[0m[35m?[0-9]+), ([-+]?[0-9]*[1;35m\.[0m[35m?[0-9]+)$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4ae6710[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/location_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m17[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4ae6758@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/location_steps.rb:17>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I go to ([-+]?[0-9]*[1;35m\.[0m[35m?[0-9]+), ([-+]?[0-9]*[1;35m\.[0m[35m?[0-9]+)$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4acee48[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m1[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4acee78@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb:1>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I go back$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4acea28[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m5[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4acea70@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb:5>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I press the menu key$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4ace4b8[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m9[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4ace500@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb:9>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I press the enter button$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4acde58[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m15[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4acdea0@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb:15>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I swipe left$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4acda68[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m19[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4acda98@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb:19>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I swipe right$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4acd648[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m23[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4acd678@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb:23>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I select "([^[1;35m\"[0m[35m]*)" from the menu$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4acd1f8[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m27[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4acd240@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb:27>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I select tab number ([1;35m\d[0m[35m+)$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4accdd8[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m32[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4acce08@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb:32>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I select the "([^[1;35m\"[0m[35m]*)" tab$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4acc9a0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m36[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4acc9e8@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb:36>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I scroll down$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4acc5c8[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m40[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4acc5f8@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb:40>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I scroll up$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4acc208[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m44[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4acc238@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/navigation_steps.rb:44>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I drag from ([1;35m\d[0m[35m+):([1;35m\d[0m[35m+) to ([1;35m\d[0m[35m+):([1;35m\d[0m[35m+) moving with ([1;35m\d[0m[35m+) steps$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4ab7cb8[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/press_button_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m1[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4ab7ce8@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/press_button_steps.rb:1>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I press the "([^[1;35m\"[0m[35m]*)" button$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4ab78e0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/press_button_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m5[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4ab7910@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/press_button_steps.rb:5>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I press button number ([1;35m\d[0m[35m+)$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4ab7520[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/press_button_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m9[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4ab7550@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/press_button_steps.rb:9>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I press image button number ([1;35m\d[0m[35m+)$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4ab7100[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/press_button_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m13[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4ab7130@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/press_button_steps.rb:13>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I press view with id "([^[1;35m\"[0m[35m]*)"$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4ab6d70[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/press_button_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m17[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4ab6da0@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/press_button_steps.rb:17>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I press "([^[1;35m\"[0m[35m]*)"$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4ab6950[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/press_button_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m21[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4ab6980@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/press_button_steps.rb:21>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I click on screen ([1;35m\d[0m[35m+)% from the left and ([1;35m\d[0m[35m+)% from the top$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4ab6590[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/press_button_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m25[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4ab65c0@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/press_button_steps.rb:25>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I touch the "([^[1;35m\"[0m[35m]*)" text$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4ab6140[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/press_button_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m29[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4ab6170@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/press_button_steps.rb:29>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I press list item number ([1;35m\d[0m[35m+)$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4ab5b88[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/press_button_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m35[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4ab5be8@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/press_button_steps.rb:35>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I long press list item number ([1;35m\d[0m[35m+)$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4aa6db0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m1[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4aa6de0@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb:1>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I wait for progress$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4aa6828[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m5[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4aa6858@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb:5>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I wait$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4aa6450[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m10[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4aa6480@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb:10>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I wait for ([1;35m\d[0m[35m+) seconds$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4aa5ee0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m14[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4aa5f10@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb:14>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I wait for 1 second$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4aa5ad8[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m18[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4aa5b20@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb:18>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I wait for a second$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4aa56d0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m22[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4aa5700@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb:22>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I wait for "([^[1;35m\"[0m[35m]*)" to appear$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4aa51f0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m26[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4aa5250@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb:26>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I wait up to ([1;35m\d[0m[35m+) seconds for "([^[1;35m\"[0m[35m]*)" to appear$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4aa4d70[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m30[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4aa4da0@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb:30>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I wait to see "([^[1;35m\"[0m[35m]*)"$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4aa49c8[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m34[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4aa49f8@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb:34>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I wait up to ([1;35m\d[0m[35m+) seconds to see "([^[1;35m\"[0m[35m]*)"$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4aa4350[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m38[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4aa4440@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb:38>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I wait for the "([^[1;35m\"[0m[35m]*)" button to appear$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4a9ffa0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m42[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4aa7308@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb:42>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I wait for the view with id "([^[1;35m\"[0m[35m]*)" to appear$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4a9fc28[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m46[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4a9fc58@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb:46>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I wait for the "([^[1;35m\"[0m[35m]*)" view to appear$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4a9f850[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m51[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4a9f880@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb:51>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I wait for the "([^[1;35m\"[0m[35m]*)" screen to appear$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4a9f430[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m55[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4a9f460@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb:55>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I wait upto ([1;35m\d[0m[35m+) seconds for the "([^[1;35m\"[0m[35m]*)" screen to appear$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4a9ef50[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m59[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4a9efb0@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb:59>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I wait up to ([1;35m\d[0m[35m+) seconds for the "([^[1;35m\"[0m[35m]*)" screen to appear$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4a9e980[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m64[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4a9e9b0@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/progress_steps.rb:64>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I wait for the "([^[1;35m\"[0m[35m]*)" tab to appear$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4a92b78[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/screenshot_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m1[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4a92c08@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/screenshot_steps.rb:1>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^take picture$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4a91ab0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/screenshot_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m5[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4a91bd0@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/screenshot_steps.rb:5>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I take a picture$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4a90f58[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/screenshot_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m9[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4a90fb8@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/screenshot_steps.rb:9>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I take a screenshot$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4a796f0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/search_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m1[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4a79750@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/search_steps.rb:1>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I enter "([^[1;35m\"[0m[35m]*)" into search field$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4a78b68[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/search_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m5[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4a78be0@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/search_steps.rb:5>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I enter "([^[1;35m\"[0m[35m]*)" into search field number ([1;35m\d[0m[35m+)$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4a72b20[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/spinner_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m1[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4a72b50@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/spinner_steps.rb:1>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I select "([^[1;35m\"[0m[35m]*)" from "([^[1;35m\"[0m[35m]*)"$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4a71530[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/time_picker_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m2[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4a71590@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/time_picker_steps.rb:2>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I set the time to "([1;35m\d[0m[35m[1;35m\d[0m[35m:[1;35m\d[0m[35m[1;35m\d[0m[35m)" on TimePicker with index ([^[1;35m\"[0m[35m]*)$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4a71158[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mcalabash-android-0.9.0/lib/calabash-android/steps/time_picker_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m6[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4a711a0@C:/Ruby23/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/lib/calabash-android/steps/time_picker_steps.rb:6>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^I set the "([^[1;35m\"[0m[35m]*)" time to "([1;35m\d[0m[35m[1;35m\d[0m[35m:[1;35m\d[0m[35m[1;35m\d[0m[35m)"$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4a702d0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mfeatures/step_definitions/carro_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m3[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4a70300@C:/Users/Gustavo Yam/Desktop/Prova/features/step_definitions/carro_steps.rb:3>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^que eu esteja no app$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4a71fe0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mfeatures/step_definitions/carro_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m9[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4a71d58@C:/Users/Gustavo Yam/Desktop/Prova/features/step_definitions/carro_steps.rb:9>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^eu fizer um cadastro$[1;35m/[0m[35m[0m[32m>[0m,
+            [32m#<Cucumber::RbSupport::RbStepDefinition:0x4a5fc38[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mfeatures/step_definitions/carro_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m19[0m}>[32m>[0m[32m>[0m,
+             @proc[32m=[0m
+              [32m#<Proc:0x4a5fc68@C:/Users/Gustavo Yam/Desktop/Prova/features/step_definitions/carro_steps.rb:19>[0m,
+             @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x33fedf0[0m ...[32m>[0m,
+             @regexp[32m=[0m[35m[1;35m/[0m[35m^confirmo se cadastro foi efetuado$[1;35m/[0m[35m[0m[32m>[0m],
+          @world_modules[32m=[0m[[1;34;4mCalabash[0m::[1;34;4mAndroid[0m::[1;34;4mColorHelper[0m, [1;34;4mCalabash[0m::[1;34;4mAndroid[0m::[1;34;4mOperations[0m],
+          @world_proc[32m=[0m[1;36mnil[0m[32m>[0m,
+        @runtime_facade[32m=[0m
+         [32m#<Cucumber::Runtime::ForProgrammingLanguages:0x33fee20[0m
+          @support_code[32m=[0m[32m#<Cucumber::Runtime::SupportCode:0x33fee68[0m ...[32m>[0m,
+          @user_interface[32m=[0m
+           [32m#<Cucumber::Runtime:0x33ff198[0m
+            @configuration[32m=[0m
+             [32m#<Cucumber::Configuration:0x33ff168[0m
+              @options[32m=[0m
+               {[33m:autoload_code_paths[0m=>[[31m[1;31m"[0m[31mfeatures/support[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mfeatures/step_definitions[1;31m"[0m[31m[0m],
+                [33m:filters[0m=>[],
+                [33m:strict[0m=>[1;36mfalse[0m,
+                [33m:require[0m=>[],
+                [33m:dry_run[0m=>[1;36mfalse[0m,
+                [33m:fail_fast[0m=>[1;36mfalse[0m,
+                [33m:formats[0m=>[[[31m[1;31m"[0m[31mpretty[1;31m"[0m[31m[0m, [32m#<IO:<STDOUT>>[0m]],
+                [33m:excludes[0m=>[],
+                [33m:tag_expressions[0m=>[],
+                [33m:name_regexps[0m=>[],
+                [33m:env_vars[0m=>
+                 {[31m[1;31m"[0m[31mAPP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mC:/Users/Gustavo Yam/Desktop/Prova/ApkProvaCarros.apk[1;31m"[0m[31m[0m,
+                  [31m[1;31m"[0m[31mTEST_APP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mtest_servers/94e1968db68c3547431eff8b55fc5366_0.9.0.apk[1;31m"[0m[31m[0m},
+                [33m:diff_enabled[0m=>[1;36mtrue[0m,
+                [33m:snippets[0m=>[1;36mtrue[0m,
+                [33m:source[0m=>[1;36mtrue[0m,
+                [33m:duration[0m=>[1;36mtrue[0m,
+                [33m:event_bus[0m=>
+                 [32m#<Cucumber::Events::Bus:0x33ff030[0m
+                  @default_namespace[32m=[0m[31m[1;31m"[0m[31mCucumber::Events[1;31m"[0m[31m[0m,
+                  @handlers[32m=[0m
+                   {[31m[1;31m"[0m[31mCucumber::Events::StepMatch[1;31m"[0m[31m[0m=>
+                     [[32m#<Proc:0x4a09778@C:/Ruby23/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m],
+                    [31m[1;31m"[0m[31mCucumber::Events::BeforeTestCase[1;31m"[0m[31m[0m=>[],
+                    [31m[1;31m"[0m[31mCucumber::Events::BeforeTestStep[1;31m"[0m[31m[0m=>[],
+                    [31m[1;31m"[0m[31mCucumber::Events::AfterTestStep[1;31m"[0m[31m[0m=>[]}[32m>[0m,
+                [33m:retry[0m=>[1;34m0[0m,
+                [33m:default_profile[0m=>[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m,
+                [33m:skip_profile_information[0m=>[1;36mnil[0m,
+                [33m:paths[0m=>[],
+                [33m:profiles[0m=>[],
+                [33m:tag_expression[0m=>
+                 [32m#<Cucumber::Core::Gherkin::TagExpression:0x33ff5a0[0m @ands[32m=[0m[], @limits[32m=[0m{}[32m>[0m,
+                [33m:out_stream[0m=>[32m#<IO:<STDOUT>>[0m,
+                [33m:error_stream[0m=>[32m#<IO:<STDERR>>[0m,
+                [33m:snippet_generators[0m=>[[32m#<Cucumber::RbSupport::Snippet::Generator:0x33fedc0[0m[32m>[0m]}[32m>[0m,
+            @event_bus_report[32m=[0m
+             [32m#<Cucumber::Formatter::EventBusReport:0x4a5ebd0[0m
+              @config[32m=[0m
+               [32m#<Cucumber::Configuration:0x33ff168[0m
+                @options[32m=[0m
+                 {[33m:autoload_code_paths[0m=>[[31m[1;31m"[0m[31mfeatures/support[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mfeatures/step_definitions[1;31m"[0m[31m[0m],
+                  [33m:filters[0m=>[],
+                  [33m:strict[0m=>[1;36mfalse[0m,
+                  [33m:require[0m=>[],
+                  [33m:dry_run[0m=>[1;36mfalse[0m,
+                  [33m:fail_fast[0m=>[1;36mfalse[0m,
+                  [33m:formats[0m=>[[[31m[1;31m"[0m[31mpretty[1;31m"[0m[31m[0m, [32m#<IO:<STDOUT>>[0m]],
+                  [33m:excludes[0m=>[],
+                  [33m:tag_expressions[0m=>[],
+                  [33m:name_regexps[0m=>[],
+                  [33m:env_vars[0m=>
+                   {[31m[1;31m"[0m[31mAPP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mC:/Users/Gustavo Yam/Desktop/Prova/ApkProvaCarros.apk[1;31m"[0m[31m[0m,
+                    [31m[1;31m"[0m[31mTEST_APP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mtest_servers/94e1968db68c3547431eff8b55fc5366_0.9.0.apk[1;31m"[0m[31m[0m},
+                  [33m:diff_enabled[0m=>[1;36mtrue[0m,
+                  [33m:snippets[0m=>[1;36mtrue[0m,
+                  [33m:source[0m=>[1;36mtrue[0m,
+                  [33m:duration[0m=>[1;36mtrue[0m,
+                  [33m:event_bus[0m=>
+                   [32m#<Cucumber::Events::Bus:0x33ff030[0m
+                    @default_namespace[32m=[0m[31m[1;31m"[0m[31mCucumber::Events[1;31m"[0m[31m[0m,
+                    @handlers[32m=[0m
+                     {[31m[1;31m"[0m[31mCucumber::Events::StepMatch[1;31m"[0m[31m[0m=>
+                       [[32m#<Proc:0x4a09778@C:/Ruby23/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m],
+                      [31m[1;31m"[0m[31mCucumber::Events::BeforeTestCase[1;31m"[0m[31m[0m=>[],
+                      [31m[1;31m"[0m[31mCucumber::Events::BeforeTestStep[1;31m"[0m[31m[0m=>[],
+                      [31m[1;31m"[0m[31mCucumber::Events::AfterTestStep[1;31m"[0m[31m[0m=>[]}[32m>[0m,
+                  [33m:retry[0m=>[1;34m0[0m,
+                  [33m:default_profile[0m=>[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m,
+                  [33m:skip_profile_information[0m=>[1;36mnil[0m,
+                  [33m:paths[0m=>[],
+                  [33m:profiles[0m=>[],
+                  [33m:tag_expression[0m=>
+                   [32m#<Cucumber::Core::Gherkin::TagExpression:0x33ff5a0[0m @ands[32m=[0m[], @limits[32m=[0m{}[32m>[0m,
+                  [33m:out_stream[0m=>[32m#<IO:<STDOUT>>[0m,
+                  [33m:error_stream[0m=>[32m#<IO:<STDERR>>[0m,
+                  [33m:snippet_generators[0m=>[[32m#<Cucumber::RbSupport::Snippet::Generator:0x33fedc0[0m[32m>[0m]}[32m>[0m,
+              @test_case[32m=[0m[32m#<Cucumber::Core::Test::Case: features/Prova_feature.feature:12>[0m[32m>[0m,
+            @features[32m=[0m
+             [[32m#<Cucumber::Core::Gherkin::Document:0x4a08ce0[0m
+               @body[32m=[0m
+                [31m[1;31m"[0m[31m#language: pt[1;35m\n[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31mFuncionalidade: Efetuar Cadastro no claro[1;35m\n[0m[31m[1;35m\n[0m[31mEu como usuario do app[1;35m\n[0m[31mQuero casdastar um carro[1;35m\n[0m[31mPara complementar a tabela de carros do app[1;35m\n[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31mCenário: Efetuar cadastro do cliente[1;35m\n[0m[31mDado que eu esteja no app[1;35m\n[0m[31mQuando eu fizer um cadastro[1;35m\n[0m[31mEntão confirmo se cadastro foi efetuado[1;35m\n[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31m[1;31m"[0m[31m[0m,
+               @uri[32m=[0m[31m[1;31m"[0m[31mfeatures/Prova_feature.feature[1;31m"[0m[31m[0m[32m>[0m],
+            @filespecs[32m=[0m
+             [32m#<Cucumber::FileSpecs:0x4a09118[0m
+              @file_specs[32m=[0m
+               [[32m#<Cucumber::FileSpecs::FileSpec:0x4a090b8[0m
+                 @file[32m=[0m[31m[1;31m"[0m[31mfeatures/Prova_feature.feature[1;31m"[0m[31m[0m,
+                 @lines[32m=[0m[][32m>[0m][32m>[0m,
+            @formatters[32m=[0m[[32m#<struct Cucumber::Formatter::LegacyApi::Adapter:...>[0m],
+            @report[32m=[0m
+             [32m#<Cucumber::Core::Report::Summary:0x4a5ed38[0m
+              @test_cases[32m=[0m
+               [32m#<Cucumber::Core::Test::Result::Summary:0x4a5ed08[0m
+                @durations[32m=[0m[],
+                @exceptions[32m=[0m[],
+                @totals[32m=[0m{}[32m>[0m,
+              @test_steps[32m=[0m
+               [32m#<Cucumber::Core::Test::Result::Summary:0x4a5ec78[0m
+                @durations[32m=[0m
+                 [[32m#<Cucumber::Core::Test::Result::Duration:0x3a95168[0m @nanoseconds[32m=[0m[1;34m3207[0m[32m>[0m,
+                  [32m#<Cucumber::Core::Test::Result::Duration:0x36a81f8[0m @nanoseconds[32m=[0m[1;34m21911764253[0m[32m>[0m,
+                  [32m#<Cucumber::Core::Test::Result::Duration:0x32e2ff0[0m @nanoseconds[32m=[0m[1;34m2342717135[0m[32m>[0m,
+                  [32m#<Cucumber::Core::Test::Result::Duration:0x4c3bdc8[0m @nanoseconds[32m=[0m[1;34m2247042771[0m[32m>[0m],
+                @exceptions[32m=[0m[],
+                @totals[32m=[0m{[33m:passed[0m=>[1;34m4[0m}[32m>[0m[32m>[0m[32m#<Cucumber::Formatter::EventBusReport:0x4a5ebd0[0m
+              @config[32m=[0m
+               [32m#<Cucumber::Configuration:0x33ff168[0m
+                @options[32m=[0m
+                 {[33m:autoload_code_paths[0m=>[[31m[1;31m"[0m[31mfeatures/support[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mfeatures/step_definitions[1;31m"[0m[31m[0m],
+                  [33m:filters[0m=>[],
+                  [33m:strict[0m=>[1;36mfalse[0m,
+                  [33m:require[0m=>[],
+                  [33m:dry_run[0m=>[1;36mfalse[0m,
+                  [33m:fail_fast[0m=>[1;36mfalse[0m,
+                  [33m:formats[0m=>[[[31m[1;31m"[0m[31mpretty[1;31m"[0m[31m[0m, [32m#<IO:<STDOUT>>[0m]],
+                  [33m:excludes[0m=>[],
+                  [33m:tag_expressions[0m=>[],
+                  [33m:name_regexps[0m=>[],
+                  [33m:env_vars[0m=>
+                   {[31m[1;31m"[0m[31mAPP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mC:/Users/Gustavo Yam/Desktop/Prova/ApkProvaCarros.apk[1;31m"[0m[31m[0m,
+                    [31m[1;31m"[0m[31mTEST_APP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mtest_servers/94e1968db68c3547431eff8b55fc5366_0.9.0.apk[1;31m"[0m[31m[0m},
+                  [33m:diff_enabled[0m=>[1;36mtrue[0m,
+                  [33m:snippets[0m=>[1;36mtrue[0m,
+                  [33m:source[0m=>[1;36mtrue[0m,
+                  [33m:duration[0m=>[1;36mtrue[0m,
+                  [33m:event_bus[0m=>
+                   [32m#<Cucumber::Events::Bus:0x33ff030[0m
+                    @default_namespace[32m=[0m[31m[1;31m"[0m[31mCucumber::Events[1;31m"[0m[31m[0m,
+                    @handlers[32m=[0m
+                     {[31m[1;31m"[0m[31mCucumber::Events::StepMatch[1;31m"[0m[31m[0m=>
+                       [[32m#<Proc:0x4a09778@C:/Ruby23/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m],
+                      [31m[1;31m"[0m[31mCucumber::Events::BeforeTestCase[1;31m"[0m[31m[0m=>[],
+                      [31m[1;31m"[0m[31mCucumber::Events::BeforeTestStep[1;31m"[0m[31m[0m=>[],
+                      [31m[1;31m"[0m[31mCucumber::Events::AfterTestStep[1;31m"[0m[31m[0m=>[]}[32m>[0m,
+                  [33m:retry[0m=>[1;34m0[0m,
+                  [33m:default_profile[0m=>[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m,
+                  [33m:skip_profile_information[0m=>[1;36mnil[0m,
+                  [33m:paths[0m=>[],
+                  [33m:profiles[0m=>[],
+                  [33m:tag_expression[0m=>
+                   [32m#<Cucumber::Core::Gherkin::TagExpression:0x33ff5a0[0m @ands[32m=[0m[], @limits[32m=[0m{}[32m>[0m,
+                  [33m:out_stream[0m=>[32m#<IO:<STDOUT>>[0m,
+                  [33m:error_stream[0m=>[32m#<IO:<STDERR>>[0m,
+                  [33m:snippet_generators[0m=>[[32m#<Cucumber::RbSupport::Snippet::Generator:0x33fedc0[0m[32m>[0m]}[32m>[0m,
+              @test_case[32m=[0m
+               [32m#<Cucumber::Core::Test::Case: features/Prova_feature.feature:12>[0m[32m>[0m[32m#<struct Cucumber::Formatter::LegacyApi::Adapter[0m
+              formatter[32m=[0m[32m#<Cucumber::Formatter::Pretty:0x4a09910[0m ...[32m>[0m,
+              results[32m=[0m
+               [32m#<Cucumber::Formatter::LegacyApi::Results:0x4a09970[0m
+                @inserted_scenarios[32m=[0m{},
+                @inserted_steps[32m=[0m
+                 {[1;34m39912852[0m=>
+                   [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                    step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/carro_steps.rb:3>[0m,
+                    status[32m=[0m[33m:passed[0m,
+                    duration[32m=[0m
+                     [32m#<Cucumber::Core::Test::Result::Duration:0x4c3bdc8[0m @nanoseconds[32m=[0m[1;34m2247042771[0m[32m>[0m,
+                    exception[32m=[0m[1;36mnil[0m,
+                    indent[32m=[0m
+                     [32m#<Cucumber::Formatter::LegacyApi::Indent:0x4c20c90[0m @widths[32m=[0m[[1;34m35[0m, [1;34m26[0m, [1;34m28[0m, [1;34m40[0m][32m>[0m,
+                    background[32m=[0m[1;36mnil[0m,
+                    step[32m=[0m
+                     [32m#<Cucumber::Core::Ast::Step "Dado : que eu esteja no app" (features/Prova_feature.feature:13)>[0m,
+                    messages[32m=[0m[],
+                    embeddings[32m=[0m[][32m>[0m},
+                @steps[32m=[0m
+                 [[32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                   step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/carro_steps.rb:3>[0m,
+                   status[32m=[0m[33m:passed[0m,
+                   duration[32m=[0m
+                    [32m#<Cucumber::Core::Test::Result::Duration:0x4c3bdc8[0m @nanoseconds[32m=[0m[1;34m2247042771[0m[32m>[0m,
+                   exception[32m=[0m[1;36mnil[0m,
+                   indent[32m=[0m
+                    [32m#<Cucumber::Formatter::LegacyApi::Indent:0x4c20c90[0m @widths[32m=[0m[[1;34m35[0m, [1;34m26[0m, [1;34m28[0m, [1;34m40[0m][32m>[0m,
+                   background[32m=[0m[1;36mnil[0m,
+                   step[32m=[0m
+                    [32m#<Cucumber::Core::Ast::Step "Dado : que eu esteja no app" (features/Prova_feature.feature:13)>[0m,
+                   messages[32m=[0m[],
+                   embeddings[32m=[0m[][32m>[0m][32m>[0m,
+              config[32m=[0m
+               [32m#<Cucumber::Configuration:0x33ff168[0m
+                @options[32m=[0m
+                 {[33m:autoload_code_paths[0m=>[[31m[1;31m"[0m[31mfeatures/support[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mfeatures/step_definitions[1;31m"[0m[31m[0m],
+                  [33m:filters[0m=>[],
+                  [33m:strict[0m=>[1;36mfalse[0m,
+                  [33m:require[0m=>[],
+                  [33m:dry_run[0m=>[1;36mfalse[0m,
+                  [33m:fail_fast[0m=>[1;36mfalse[0m,
+                  [33m:formats[0m=>[[[31m[1;31m"[0m[31mpretty[1;31m"[0m[31m[0m, [32m#<IO:<STDOUT>>[0m]],
+                  [33m:excludes[0m=>[],
+                  [33m:tag_expressions[0m=>[],
+                  [33m:name_regexps[0m=>[],
+                  [33m:env_vars[0m=>
+                   {[31m[1;31m"[0m[31mAPP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mC:/Users/Gustavo Yam/Desktop/Prova/ApkProvaCarros.apk[1;31m"[0m[31m[0m,
+                    [31m[1;31m"[0m[31mTEST_APP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mtest_servers/94e1968db68c3547431eff8b55fc5366_0.9.0.apk[1;31m"[0m[31m[0m},
+                  [33m:diff_enabled[0m=>[1;36mtrue[0m,
+                  [33m:snippets[0m=>[1;36mtrue[0m,
+                  [33m:source[0m=>[1;36mtrue[0m,
+                  [33m:duration[0m=>[1;36mtrue[0m,
+                  [33m:event_bus[0m=>
+                   [32m#<Cucumber::Events::Bus:0x33ff030[0m
+                    @default_namespace[32m=[0m[31m[1;31m"[0m[31mCucumber::Events[1;31m"[0m[31m[0m,
+                    @handlers[32m=[0m
+                     {[31m[1;31m"[0m[31mCucumber::Events::StepMatch[1;31m"[0m[31m[0m=>
+                       [[32m#<Proc:0x4a09778@C:/Ruby23/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m],
+                      [31m[1;31m"[0m[31mCucumber::Events::BeforeTestCase[1;31m"[0m[31m[0m=>[],
+                      [31m[1;31m"[0m[31mCucumber::Events::BeforeTestStep[1;31m"[0m[31m[0m=>[],
+                      [31m[1;31m"[0m[31mCucumber::Events::AfterTestStep[1;31m"[0m[31m[0m=>[]}[32m>[0m,
+                  [33m:retry[0m=>[1;34m0[0m,
+                  [33m:default_profile[0m=>[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m,
+                  [33m:skip_profile_information[0m=>[1;36mnil[0m,
+                  [33m:paths[0m=>[],
+                  [33m:profiles[0m=>[],
+                  [33m:tag_expression[0m=>
+                   [32m#<Cucumber::Core::Gherkin::TagExpression:0x33ff5a0[0m @ands[32m=[0m[], @limits[32m=[0m{}[32m>[0m,
+                  [33m:out_stream[0m=>[32m#<IO:<STDOUT>>[0m,
+                  [33m:error_stream[0m=>[32m#<IO:<STDERR>>[0m,
+                  [33m:snippet_generators[0m=>[[32m#<Cucumber::RbSupport::Snippet::Generator:0x33fedc0[0m[32m>[0m]}[32m>[0m[32m>[0m,
+            @results[32m=[0m
+             [32m#<Cucumber::Formatter::LegacyApi::Results:0x33fed60[0m
+              @inserted_scenarios[32m=[0m{},
+              @inserted_steps[32m=[0m{}[32m>[0m,
+            @summary_report[32m=[0m
+             [32m#<Cucumber::Core::Report::Summary:0x4a5ed38[0m
+              @test_cases[32m=[0m
+               [32m#<Cucumber::Core::Test::Result::Summary:0x4a5ed08[0m
+                @durations[32m=[0m[],
+                @exceptions[32m=[0m[],
+                @totals[32m=[0m{}[32m>[0m,
+              @test_steps[32m=[0m
+               [32m#<Cucumber::Core::Test::Result::Summary:0x4a5ec78[0m
+                @durations[32m=[0m
+                 [[32m#<Cucumber::Core::Test::Result::Duration:0x3a95168[0m @nanoseconds[32m=[0m[1;34m3207[0m[32m>[0m,
+                  [32m#<Cucumber::Core::Test::Result::Duration:0x36a81f8[0m @nanoseconds[32m=[0m[1;34m21911764253[0m[32m>[0m,
+                  [32m#<Cucumber::Core::Test::Result::Duration:0x32e2ff0[0m @nanoseconds[32m=[0m[1;34m2342717135[0m[32m>[0m,
+                  [32m#<Cucumber::Core::Test::Result::Duration:0x4c3bdc8[0m @nanoseconds[32m=[0m[1;34m2247042771[0m[32m>[0m],
+                @exceptions[32m=[0m[],
+                @totals[32m=[0m{[33m:passed[0m=>[1;34m4[0m}[32m>[0m[32m>[0m,
+            @support_code[32m=[0m[32m#<Cucumber::Runtime::SupportCode:0x33fee68[0m ...[32m>[0m,
+            @visitor[32m=[0m
+             [32m#<Cucumber::Core::Report::Summary:0x4a5ed38[0m
+              @test_cases[32m=[0m
+               [32m#<Cucumber::Core::Test::Result::Summary:0x4a5ed08[0m
+                @durations[32m=[0m[],
+                @exceptions[32m=[0m[],
+                @totals[32m=[0m{}[32m>[0m,
+              @test_steps[32m=[0m
+               [32m#<Cucumber::Core::Test::Result::Summary:0x4a5ec78[0m
+                @durations[32m=[0m
+                 [[32m#<Cucumber::Core::Test::Result::Duration:0x3a95168[0m @nanoseconds[32m=[0m[1;34m3207[0m[32m>[0m,
+                  [32m#<Cucumber::Core::Test::Result::Duration:0x36a81f8[0m @nanoseconds[32m=[0m[1;34m21911764253[0m[32m>[0m,
+                  [32m#<Cucumber::Core::Test::Result::Duration:0x32e2ff0[0m @nanoseconds[32m=[0m[1;34m2342717135[0m[32m>[0m,
+                  [32m#<Cucumber::Core::Test::Result::Duration:0x4c3bdc8[0m @nanoseconds[32m=[0m[1;34m2247042771[0m[32m>[0m],
+                @exceptions[32m=[0m[],
+                @totals[32m=[0m{[33m:passed[0m=>[1;34m4[0m}[32m>[0m[32m>[0m[32m#<Cucumber::Formatter::EventBusReport:0x4a5ebd0[0m
+              @config[32m=[0m
+               [32m#<Cucumber::Configuration:0x33ff168[0m
+                @options[32m=[0m
+                 {[33m:autoload_code_paths[0m=>[[31m[1;31m"[0m[31mfeatures/support[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mfeatures/step_definitions[1;31m"[0m[31m[0m],
+                  [33m:filters[0m=>[],
+                  [33m:strict[0m=>[1;36mfalse[0m,
+                  [33m:require[0m=>[],
+                  [33m:dry_run[0m=>[1;36mfalse[0m,
+                  [33m:fail_fast[0m=>[1;36mfalse[0m,
+                  [33m:formats[0m=>[[[31m[1;31m"[0m[31mpretty[1;31m"[0m[31m[0m, [32m#<IO:<STDOUT>>[0m]],
+                  [33m:excludes[0m=>[],
+                  [33m:tag_expressions[0m=>[],
+                  [33m:name_regexps[0m=>[],
+                  [33m:env_vars[0m=>
+                   {[31m[1;31m"[0m[31mAPP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mC:/Users/Gustavo Yam/Desktop/Prova/ApkProvaCarros.apk[1;31m"[0m[31m[0m,
+                    [31m[1;31m"[0m[31mTEST_APP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mtest_servers/94e1968db68c3547431eff8b55fc5366_0.9.0.apk[1;31m"[0m[31m[0m},
+                  [33m:diff_enabled[0m=>[1;36mtrue[0m,
+                  [33m:snippets[0m=>[1;36mtrue[0m,
+                  [33m:source[0m=>[1;36mtrue[0m,
+                  [33m:duration[0m=>[1;36mtrue[0m,
+                  [33m:event_bus[0m=>
+                   [32m#<Cucumber::Events::Bus:0x33ff030[0m
+                    @default_namespace[32m=[0m[31m[1;31m"[0m[31mCucumber::Events[1;31m"[0m[31m[0m,
+                    @handlers[32m=[0m
+                     {[31m[1;31m"[0m[31mCucumber::Events::StepMatch[1;31m"[0m[31m[0m=>
+                       [[32m#<Proc:0x4a09778@C:/Ruby23/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m],
+                      [31m[1;31m"[0m[31mCucumber::Events::BeforeTestCase[1;31m"[0m[31m[0m=>[],
+                      [31m[1;31m"[0m[31mCucumber::Events::BeforeTestStep[1;31m"[0m[31m[0m=>[],
+                      [31m[1;31m"[0m[31mCucumber::Events::AfterTestStep[1;31m"[0m[31m[0m=>[]}[32m>[0m,
+                  [33m:retry[0m=>[1;34m0[0m,
+                  [33m:default_profile[0m=>[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m,
+                  [33m:skip_profile_information[0m=>[1;36mnil[0m,
+                  [33m:paths[0m=>[],
+                  [33m:profiles[0m=>[],
+                  [33m:tag_expression[0m=>
+                   [32m#<Cucumber::Core::Gherkin::TagExpression:0x33ff5a0[0m @ands[32m=[0m[], @limits[32m=[0m{}[32m>[0m,
+                  [33m:out_stream[0m=>[32m#<IO:<STDOUT>>[0m,
+                  [33m:error_stream[0m=>[32m#<IO:<STDERR>>[0m,
+                  [33m:snippet_generators[0m=>[[32m#<Cucumber::RbSupport::Snippet::Generator:0x33fedc0[0m[32m>[0m]}[32m>[0m,
+              @test_case[32m=[0m
+               [32m#<Cucumber::Core::Test::Case: features/Prova_feature.feature:12>[0m[32m>[0m[32m#<struct Cucumber::Formatter::LegacyApi::Adapter[0m
+              formatter[32m=[0m[32m#<Cucumber::Formatter::Pretty:0x4a09910[0m ...[32m>[0m,
+              results[32m=[0m
+               [32m#<Cucumber::Formatter::LegacyApi::Results:0x4a09970[0m
+                @inserted_scenarios[32m=[0m{},
+                @inserted_steps[32m=[0m
+                 {[1;34m39912852[0m=>
+                   [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                    step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/carro_steps.rb:3>[0m,
+                    status[32m=[0m[33m:passed[0m,
+                    duration[32m=[0m
+                     [32m#<Cucumber::Core::Test::Result::Duration:0x4c3bdc8[0m @nanoseconds[32m=[0m[1;34m2247042771[0m[32m>[0m,
+                    exception[32m=[0m[1;36mnil[0m,
+                    indent[32m=[0m
+                     [32m#<Cucumber::Formatter::LegacyApi::Indent:0x4c20c90[0m @widths[32m=[0m[[1;34m35[0m, [1;34m26[0m, [1;34m28[0m, [1;34m40[0m][32m>[0m,
+                    background[32m=[0m[1;36mnil[0m,
+                    step[32m=[0m
+                     [32m#<Cucumber::Core::Ast::Step "Dado : que eu esteja no app" (features/Prova_feature.feature:13)>[0m,
+                    messages[32m=[0m[],
+                    embeddings[32m=[0m[][32m>[0m},
+                @steps[32m=[0m
+                 [[32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                   step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/carro_steps.rb:3>[0m,
+                   status[32m=[0m[33m:passed[0m,
+                   duration[32m=[0m
+                    [32m#<Cucumber::Core::Test::Result::Duration:0x4c3bdc8[0m @nanoseconds[32m=[0m[1;34m2247042771[0m[32m>[0m,
+                   exception[32m=[0m[1;36mnil[0m,
+                   indent[32m=[0m
+                    [32m#<Cucumber::Formatter::LegacyApi::Indent:0x4c20c90[0m @widths[32m=[0m[[1;34m35[0m, [1;34m26[0m, [1;34m28[0m, [1;34m40[0m][32m>[0m,
+                   background[32m=[0m[1;36mnil[0m,
+                   step[32m=[0m
+                    [32m#<Cucumber::Core::Ast::Step "Dado : que eu esteja no app" (features/Prova_feature.feature:13)>[0m,
+                   messages[32m=[0m[],
+                   embeddings[32m=[0m[][32m>[0m][32m>[0m,
+              config[32m=[0m
+               [32m#<Cucumber::Configuration:0x33ff168[0m
+                @options[32m=[0m
+                 {[33m:autoload_code_paths[0m=>[[31m[1;31m"[0m[31mfeatures/support[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mfeatures/step_definitions[1;31m"[0m[31m[0m],
+                  [33m:filters[0m=>[],
+                  [33m:strict[0m=>[1;36mfalse[0m,
+                  [33m:require[0m=>[],
+                  [33m:dry_run[0m=>[1;36mfalse[0m,
+                  [33m:fail_fast[0m=>[1;36mfalse[0m,
+                  [33m:formats[0m=>[[[31m[1;31m"[0m[31mpretty[1;31m"[0m[31m[0m, [32m#<IO:<STDOUT>>[0m]],
+                  [33m:excludes[0m=>[],
+                  [33m:tag_expressions[0m=>[],
+                  [33m:name_regexps[0m=>[],
+                  [33m:env_vars[0m=>
+                   {[31m[1;31m"[0m[31mAPP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mC:/Users/Gustavo Yam/Desktop/Prova/ApkProvaCarros.apk[1;31m"[0m[31m[0m,
+                    [31m[1;31m"[0m[31mTEST_APP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mtest_servers/94e1968db68c3547431eff8b55fc5366_0.9.0.apk[1;31m"[0m[31m[0m},
+                  [33m:diff_enabled[0m=>[1;36mtrue[0m,
+                  [33m:snippets[0m=>[1;36mtrue[0m,
+                  [33m:source[0m=>[1;36mtrue[0m,
+                  [33m:duration[0m=>[1;36mtrue[0m,
+                  [33m:event_bus[0m=>
+                   [32m#<Cucumber::Events::Bus:0x33ff030[0m
+                    @default_namespace[32m=[0m[31m[1;31m"[0m[31mCucumber::Events[1;31m"[0m[31m[0m,
+                    @handlers[32m=[0m
+                     {[31m[1;31m"[0m[31mCucumber::Events::StepMatch[1;31m"[0m[31m[0m=>
+                       [[32m#<Proc:0x4a09778@C:/Ruby23/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m],
+                      [31m[1;31m"[0m[31mCucumber::Events::BeforeTestCase[1;31m"[0m[31m[0m=>[],
+                      [31m[1;31m"[0m[31mCucumber::Events::BeforeTestStep[1;31m"[0m[31m[0m=>[],
+                      [31m[1;31m"[0m[31mCucumber::Events::AfterTestStep[1;31m"[0m[31m[0m=>[]}[32m>[0m,
+                  [33m:retry[0m=>[1;34m0[0m,
+                  [33m:default_profile[0m=>[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m,
+                  [33m:skip_profile_information[0m=>[1;36mnil[0m,
+                  [33m:paths[0m=>[],
+                  [33m:profiles[0m=>[],
+                  [33m:tag_expression[0m=>
+                   [32m#<Cucumber::Core::Gherkin::TagExpression:0x33ff5a0[0m @ands[32m=[0m[], @limits[32m=[0m{}[32m>[0m,
+                  [33m:out_stream[0m=>[32m#<IO:<STDOUT>>[0m,
+                  [33m:error_stream[0m=>[32m#<IO:<STDERR>>[0m,
+                  [33m:snippet_generators[0m=>[[32m#<Cucumber::RbSupport::Snippet::Generator:0x33fedc0[0m[32m>[0m]}[32m>[0m[32m>[0m[32m>[0m[32m>[0m[32m>[0m,
+      configuration[32m=[0m
+       [32m#<Cucumber::Configuration:0x33ff168[0m
+        @options[32m=[0m
+         {[33m:autoload_code_paths[0m=>[[31m[1;31m"[0m[31mfeatures/support[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mfeatures/step_definitions[1;31m"[0m[31m[0m],
+          [33m:filters[0m=>[],
+          [33m:strict[0m=>[1;36mfalse[0m,
+          [33m:require[0m=>[],
+          [33m:dry_run[0m=>[1;36mfalse[0m,
+          [33m:fail_fast[0m=>[1;36mfalse[0m,
+          [33m:formats[0m=>[[[31m[1;31m"[0m[31mpretty[1;31m"[0m[31m[0m, [32m#<IO:<STDOUT>>[0m]],
+          [33m:excludes[0m=>[],
+          [33m:tag_expressions[0m=>[],
+          [33m:name_regexps[0m=>[],
+          [33m:env_vars[0m=>
+           {[31m[1;31m"[0m[31mAPP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mC:/Users/Gustavo Yam/Desktop/Prova/ApkProvaCarros.apk[1;31m"[0m[31m[0m,
+            [31m[1;31m"[0m[31mTEST_APP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mtest_servers/94e1968db68c3547431eff8b55fc5366_0.9.0.apk[1;31m"[0m[31m[0m},
+          [33m:diff_enabled[0m=>[1;36mtrue[0m,
+          [33m:snippets[0m=>[1;36mtrue[0m,
+          [33m:source[0m=>[1;36mtrue[0m,
+          [33m:duration[0m=>[1;36mtrue[0m,
+          [33m:event_bus[0m=>
+           [32m#<Cucumber::Events::Bus:0x33ff030[0m
+            @default_namespace[32m=[0m[31m[1;31m"[0m[31mCucumber::Events[1;31m"[0m[31m[0m,
+            @handlers[32m=[0m
+             {[31m[1;31m"[0m[31mCucumber::Events::StepMatch[1;31m"[0m[31m[0m=>
+               [[32m#<Proc:0x4a09778@C:/Ruby23/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m],
+              [31m[1;31m"[0m[31mCucumber::Events::BeforeTestCase[1;31m"[0m[31m[0m=>[],
+              [31m[1;31m"[0m[31mCucumber::Events::BeforeTestStep[1;31m"[0m[31m[0m=>[],
+              [31m[1;31m"[0m[31mCucumber::Events::AfterTestStep[1;31m"[0m[31m[0m=>[]}[32m>[0m,
+          [33m:retry[0m=>[1;34m0[0m,
+          [33m:default_profile[0m=>[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m,
+          [33m:skip_profile_information[0m=>[1;36mnil[0m,
+          [33m:paths[0m=>[],
+          [33m:profiles[0m=>[],
+          [33m:tag_expression[0m=>[32m#<Cucumber::Core::Gherkin::TagExpression:0x33ff5a0[0m @ands[32m=[0m[], @limits[32m=[0m{}[32m>[0m,
+          [33m:out_stream[0m=>[32m#<IO:<STDOUT>>[0m,
+          [33m:error_stream[0m=>[32m#<IO:<STDERR>>[0m,
+          [33m:snippet_generators[0m=>[[32m#<Cucumber::RbSupport::Snippet::Generator:0x33fedc0[0m[32m>[0m]}[32m>[0m[32m>[0m,
+    @scenario_indent[32m=[0m[1;34m2[0m,
+    @snippets_input[32m=[0m[],
+    @status[32m=[0m[33m:passed[0m[32m>[0m,
+  results[32m=[0m
+   [32m#<Cucumber::Formatter::LegacyApi::Results:0x4a09970[0m
+    @inserted_scenarios[32m=[0m{},
+    @inserted_steps[32m=[0m
+     {[1;34m39912852[0m=>
+       [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+        step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/carro_steps.rb:3>[0m,
+        status[32m=[0m[33m:passed[0m,
+        duration[32m=[0m[32m#<Cucumber::Core::Test::Result::Duration:0x4c3bdc8[0m @nanoseconds[32m=[0m[1;34m2247042771[0m[32m>[0m,
+        exception[32m=[0m[1;36mnil[0m,
+        indent[32m=[0m[32m#<Cucumber::Formatter::LegacyApi::Indent:0x4c20c90[0m @widths[32m=[0m[[1;34m35[0m, [1;34m26[0m, [1;34m28[0m, [1;34m40[0m][32m>[0m,
+        background[32m=[0m[1;36mnil[0m,
+        step[32m=[0m
+         [32m#<Cucumber::Core::Ast::Step "Dado : que eu esteja no app" (features/Prova_feature.feature:13)>[0m,
+        messages[32m=[0m[],
+        embeddings[32m=[0m[][32m>[0m},
+    @steps[32m=[0m
+     [[32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+       step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/carro_steps.rb:3>[0m,
+       status[32m=[0m[33m:passed[0m,
+       duration[32m=[0m[32m#<Cucumber::Core::Test::Result::Duration:0x4c3bdc8[0m @nanoseconds[32m=[0m[1;34m2247042771[0m[32m>[0m,
+       exception[32m=[0m[1;36mnil[0m,
+       indent[32m=[0m[32m#<Cucumber::Formatter::LegacyApi::Indent:0x4c20c90[0m @widths[32m=[0m[[1;34m35[0m, [1;34m26[0m, [1;34m28[0m, [1;34m40[0m][32m>[0m,
+       background[32m=[0m[1;36mnil[0m,
+       step[32m=[0m
+        [32m#<Cucumber::Core::Ast::Step "Dado : que eu esteja no app" (features/Prova_feature.feature:13)>[0m,
+       messages[32m=[0m[],
+       embeddings[32m=[0m[][32m>[0m][32m>[0m,
+  config[32m=[0m
+   [32m#<Cucumber::Configuration:0x33ff168[0m
+    @options[32m=[0m
+     {[33m:autoload_code_paths[0m=>[[31m[1;31m"[0m[31mfeatures/support[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mfeatures/step_definitions[1;31m"[0m[31m[0m],
+      [33m:filters[0m=>[],
+      [33m:strict[0m=>[1;36mfalse[0m,
+      [33m:require[0m=>[],
+      [33m:dry_run[0m=>[1;36mfalse[0m,
+      [33m:fail_fast[0m=>[1;36mfalse[0m,
+      [33m:formats[0m=>[[[31m[1;31m"[0m[31mpretty[1;31m"[0m[31m[0m, [32m#<IO:<STDOUT>>[0m]],
+      [33m:excludes[0m=>[],
+      [33m:tag_expressions[0m=>[],
+      [33m:name_regexps[0m=>[],
+      [33m:env_vars[0m=>
+       {[31m[1;31m"[0m[31mAPP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mC:/Users/Gustavo Yam/Desktop/Prova/ApkProvaCarros.apk[1;31m"[0m[31m[0m,
+        [31m[1;31m"[0m[31mTEST_APP_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mtest_servers/94e1968db68c3547431eff8b55fc5366_0.9.0.apk[1;31m"[0m[31m[0m},
+      [33m:diff_enabled[0m=>[1;36mtrue[0m,
+      [33m:snippets[0m=>[1;36mtrue[0m,
+      [33m:source[0m=>[1;36mtrue[0m,
+      [33m:duration[0m=>[1;36mtrue[0m,
+      [33m:event_bus[0m=>
+       [32m#<Cucumber::Events::Bus:0x33ff030[0m
+        @default_namespace[32m=[0m[31m[1;31m"[0m[31mCucumber::Events[1;31m"[0m[31m[0m,
+        @handlers[32m=[0m
+         {[31m[1;31m"[0m[31mCucumber::Events::StepMatch[1;31m"[0m[31m[0m=>
+           [[32m#<Proc:0x4a09778@C:/Ruby23/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m],
+          [31m[1;31m"[0m[31mCucumber::Events::BeforeTestCase[1;31m"[0m[31m[0m=>[],
+          [31m[1;31m"[0m[31mCucumber::Events::BeforeTestStep[1;31m"[0m[31m[0m=>[],
+          [31m[1;31m"[0m[31mCucumber::Events::AfterTestStep[1;31m"[0m[31m[0m=>[]}[32m>[0m,
+      [33m:retry[0m=>[1;34m0[0m,
+      [33m:default_profile[0m=>[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m,
+      [33m:skip_profile_information[0m=>[1;36mnil[0m,
+      [33m:paths[0m=>[],
+      [33m:profiles[0m=>[],
+      [33m:tag_expression[0m=>[32m#<Cucumber::Core::Gherkin::TagExpression:0x33ff5a0[0m @ands[32m=[0m[], @limits[32m=[0m{}[32m>[0m,
+      [33m:out_stream[0m=>[32m#<IO:<STDOUT>>[0m,
+      [33m:error_stream[0m=>[32m#<IO:<STDERR>>[0m,
+      [33m:snippet_generators[0m=>[[32m#<Cucumber::RbSupport::Snippet::Generator:0x33fedc0[0m[32m>[0m]}[32m>[0m[32m>[0m]

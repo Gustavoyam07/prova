@@ -1,0 +1,18 @@
+start_test_server_in_background
+touch("* id:'cadastrar'")
+page(Carro).preencher_modelo(@placa,@modelo,@valor)
+page(Carro).preencher_modelo(@placa,@modelo,@valor)
+touch("* id:'modelo'")
+keyboard_enter_text(modelo)
+keyboard_enter_text(modelo)
+lista_carros = query("* id:'listaCarros'", :text)
+lista_carros = query("* id:'listaCarros'")
+while lista_carros != placa
+if lista_carros.include? placa
+touch("* id:'placa'", :text)
+touch("* id:'placa'", :text)
+touch("* id:'placa'")
+exit
+exit program
+exit
+exit
